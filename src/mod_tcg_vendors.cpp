@@ -339,19 +339,19 @@ static const std::map<uint32, std::vector<TCGItem>> LANDRO_CATALOG =
 
 static const std::map<uint32, std::string> EXPANSION_NAMES =
 {
-    { SENDER_HOA,  "Heroes of Azeroth"        },
-    { SENDER_TDP,  "Through the Dark Portal"  },
-    { SENDER_FOO,  "Fires of Outland"         },
-    { SENDER_MOTL, "March of the Legion"      },
-    { SENDER_SOTB, "Servants of the Betrayer" },
-    { SENDER_HFI,  "Hunt for Illidan"         },
-    { SENDER_DOW,  "Drums of War"             },
-    { SENDER_BOG,  "Blood of Gladiators"      },
-    { SENDER_FOH,  "Fields of Honor"          },
-    { SENDER_SW,   "Scourgewar"               },
-    { SENDER_WG,   "Wrathgate"                },
-    { SENDER_IC,   "Icecrown"                 },
-    { SENDER_PR,   "Points Redemption"        },
+    { SENDER_HOA,  "Helden von Azeroth"      },
+    { SENDER_TDP,  "Durch das dunkle Portal" },
+    { SENDER_FOO,  "Feuer der Scherbenwelt"  },
+    { SENDER_MOTL, "Marsch der Legion"       },
+    { SENDER_SOTB, "Diener des Verräters"    },
+    { SENDER_HFI,  "Die Jagd auf Illidan"    },
+    { SENDER_DOW,  "Trommeln des Krieges"    },
+    { SENDER_BOG,  "Blut der Gladiatoren"    },
+    { SENDER_FOH,  "Felder der Ehre"         },
+    { SENDER_SW,   "Krieg der Geißel"        },
+    { SENDER_WG,   "Pforte des Zorns"        },
+    { SENDER_IC,   "Eiskrone"                },
+    { SENDER_PR,   "Punkte-Einlösung"        },
 };
 
 // ============================================================
@@ -367,10 +367,10 @@ static const std::vector<TCGItem> TYRAELS_CATALOG =
 
 static const std::map<uint32, std::string> PROMO_CATEGORY_NAMES =
 {
-    { SENDER_PROMO_MURLOC,  "Murloc Companions"            },
-    { SENDER_PROMO_CLASSIC, "Classic & Special Promotions" },
-    { SENDER_PROMO_STORE,   "Blizzard Store"               },
-    { SENDER_PROMO_EVENTS,  "Special Events & Tournaments" },
+    { SENDER_PROMO_MURLOC,  "Murloc-Begleiter"                },
+    { SENDER_PROMO_CLASSIC, "Klassische & besondere Aktionen" },
+    { SENDER_PROMO_STORE,   "Blizzard Store"                  },
+    { SENDER_PROMO_EVENTS,  "Besondere Events & Turniere"     },
 };
 
 // ============================================================
