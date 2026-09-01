@@ -150,110 +150,110 @@ struct RewardGroup
 static const std::map<std::string, RewardGroup> REWARD_GROUPS =
 {
     // --- Heroes of Azeroth ---
-    { "TCG_TABARD_OF_FLAME",           { "Tabard of Flame",                             { 23705 }        } },
-    { "TCG_HIPPOGRYPH_HATCHLING",      { "Hippogryph Hatchling",                        { 23713 }        } },
-    { "TCG_RIDING_TURTLE",             { "Riding Turtle",                               { 23720 }        } },
+    { "TCG_TABARD_OF_FLAME",           { "Wappenrock der Flamme",                      { 23705 } } },
+    { "TCG_HIPPOGRYPH_HATCHLING",      { "Hippogryphenjunges",                         { 23713 } } },
+    { "TCG_RIDING_TURTLE",             { "Reitschildkröte",                            { 23720 } } },
 
     // --- Through the Dark Portal ---
-    { "TCG_PICNIC_BASKET",             { "Picnic Basket",                               { 32566 }        } },
-    { "TCG_BANANA_CHARM",              { "Banana Charm",                                { 32588 }        } },
-    { "TCG_IMP_IN_A_BALL",             { "Imp in a Ball",                               { 32542 }        } },
+    { "TCG_PICNIC_BASKET",             { "Picknickkorb",                               { 32566 } } },
+    { "TCG_BANANA_CHARM",              { "Glücksbanane",                               { 32588 } } },
+    { "TCG_IMP_IN_A_BALL",             { "Wichtel in der Kugel",                       { 32542 } } },
 
     // --- Fires of Outland ---
-    { "TCG_GOBLIN_GUMBO_KETTLE",       { "Goblin Gumbo Kettle",                         { 33219 }        } },
-    { "TCG_FISHING_CHAIR",             { "Fishing Chair",                               { 33223 }        } },
-    { "TCG_SPECTRAL_TIGER",            { "Reins of the Spectral Tiger (both variants)", { 33224, 33225 } } },
+    { "TCG_GOBLIN_GUMBO_KETTLE",       { "Kessel mit Goblingumbo",                     { 33219 } } },
+    { "TCG_FISHING_CHAIR",             { "Angelstuhl",                                 { 33223 } } },
+    { "TCG_SPECTRAL_TIGER",            { "Zügel des Spektraltigers (beide Varianten)", { 33224, 33225 } } },
 
     // --- March of the Legion ---
-    { "TCG_PAPER_FLYING_MACHINE",      { "Paper Flying Machine Kit",                    { 34499 }        } },
-    { "TCG_ROCKET_CHICKEN",            { "Rocket Chicken",                              { 34492 }        } },
-    { "TCG_DRAGON_KITE",               { "Dragon Kite",                                 { 34493 }        } },
+    { "TCG_PAPER_FLYING_MACHINE",      { "Papierflugmaschinenset",                     { 34499 } } },
+    { "TCG_ROCKET_CHICKEN",            { "Raketenhühnchen",                            { 34492 } } },
+    { "TCG_DRAGON_KITE",               { "Papierdrachen",                              { 34493 } } },
 
     // --- Servants of the Betrayer ---
-    { "TCG_X51_NETHER_ROCKET",         { "X-51 Nether-Rocket (both variants)",          { 35225, 35226 } } },
-    { "TCG_PET_BISCUIT",               { "Papa Hummel's Old-Fashioned Pet Biscuit",     { 35223 }, false, true } },
-    { "TCG_GOBLIN_WEATHER_MACHINE",    { "Goblin Weather Machine - Prototype 01-B",     { 35227 }        } },
+    { "TCG_X51_NETHER_ROCKET",         { "X-51 Netherrakete (beide Varianten)",        { 35225, 35226 } } },
+    { "TCG_PET_BISCUIT",               { "Papa Hummels traditionelles Leckerli",       { 35223 },        false, true } },
+    { "TCG_GOBLIN_WEATHER_MACHINE",    { "Wunschwettermaschine - Prototyp 01-B",       { 35227 } } },
 
     // --- Hunt for Illidan ---
-    { "TCG_PATH_OF_ILLIDAN",           { "Path of Illidan",                             { 38233 }, false, true } },
-    { "TCG_DISCO",                     { "D.I.S.C.O.",                                  { 38301 }        } },
-    { "TCG_SOUL_TRADER_BEACON",        { "Soul-Trader Beacon",                          { 38050 }        } },
+    { "TCG_PATH_OF_ILLIDAN",           { "Illidans Pfad",                              { 38233 },        false, true } },
+    { "TCG_DISCO",                     { "D.I.S.C.O.",                                 { 38301 } } },
+    { "TCG_SOUL_TRADER_BEACON",        { "Leuchtsignal des Seelenhändlers",            { 38050 } } },
 
     // --- Drums of War ---
-    { "TCG_PARTY_GRENADE",             { "Party G.R.E.N.A.D.E.",                        { 38577 }, false, true } },
-    { "TCG_FLAG_OF_OWNERSHIP",         { "The Flag of Ownership",                       { 38578 }        } },
-    { "TCG_BIG_BATTLE_BEAR",           { "Big Battle Bear",                             { 38576 }        } },
+    { "TCG_PARTY_GRENADE",             { "Party-\"G.R.A.N.A.T.E.\"",                   { 38577 },        false, true } },
+    { "TCG_FLAG_OF_OWNERSHIP",         { "Die Siegesflagge",                           { 38578 } } },
+    { "TCG_BIG_BATTLE_BEAR",           { "Großer Kriegsbär",                           { 38576 } } },
 
     // --- Blood of Gladiators ---
-    { "TCG_SANDBOX_TIGER",             { "Sandbox Tiger",                               { 45047 }, false, true } },
-    { "TCG_EPIC_PURPLE_SHIRT",         { "Epic Purple Shirt",                           { 45037 }        } },
-    { "TCG_FOAM_SWORD_RACK",           { "Foam Sword Rack",                             { 45063 }        } },
+    { "TCG_SANDBOX_TIGER",             { "Sandkastentiger",                            { 45047 },        false, true } },
+    { "TCG_EPIC_PURPLE_SHIRT",         { "Episches violettes Hemd",                    { 45037 } } },
+    { "TCG_FOAM_SWORD_RACK",           { "Schaumstoffschwertständer",                  { 45063 } } },
 
     // --- Fields of Honor ---
-    { "TCG_PATH_OF_CENARIUS",          { "Path of Cenarius",                            { 46779 }, false, true } },
-    { "TCG_OGRE_PINATA",               { "Ogre Pinata",                                 { 46780 }        } },
-    { "TCG_MAGIC_ROOSTER_EGG",         { "Magic Rooster Egg",                           { 46778 }        } },
+    { "TCG_PATH_OF_CENARIUS",          { "Pfad des Cenarius",                          { 46779 },        false, true } },
+    { "TCG_OGRE_PINATA",               { "Ogerpinata",                                 { 46780 } } },
+    { "TCG_MAGIC_ROOSTER_EGG",         { "Magisches Hühnerei",                         { 46778 } } },
 
     // --- Scourgewar ---
-    { "TCG_SCOURGEWAR_MINIMOUNT",      { "Scourgewar Mini-Mount",                       { 49288, 49289 }, true, true } },
-    { "TCG_TUSKARR_KITE",              { "Tuskarr Kite",                                { 49287 }        } },
-    { "TCG_SPECTRAL_TIGER_CUB",        { "Spectral Tiger Cub",                          { 49343 }        } },
+    { "TCG_SCOURGEWAR_MINIMOUNT",      { "Scourgewar-Minireittier",                    { 49288, 49289 }, true,  true } },
+    { "TCG_TUSKARR_KITE",              { "Tuskarrdrachen",                             { 49287 } } },
+    { "TCG_SPECTRAL_TIGER_CUB",        { "Spektraltigerjunges",                        { 49343 } } },
 
     // --- Wrathgate ---
-    { "TCG_LANDROS_GIFT_BOX",          { "Landro's Gift Box",                           { 54218 }        } },
-    { "TCG_INSTANT_STATUE_PEDESTAL",   { "Instant Statue Pedestal",                     { 54212 }        } },
-    { "TCG_BLAZING_HIPPOGRYPH",        { "Blazing Hippogryph",                          { 54069 }        } },
+    { "TCG_LANDROS_GIFT_BOX",          { "Landros Geschenkkiste",                      { 54218 } } },
+    { "TCG_INSTANT_STATUE_PEDESTAL",   { "Aufstellbares Statuenpodest",                { 54212 } } },
+    { "TCG_BLAZING_HIPPOGRYPH",        { "Flammender Hippogryph",                      { 54069 } } },
 
     // --- Icecrown ---
-    { "TCG_PAINT_BOMB",                { "Paint Bomb",                                  { 54455 }, false, true } },
-    { "TCG_ETHEREAL_PORTAL",           { "Ethereal Portal",                             { 54452 }        } },
-    { "TCG_WOOLY_WHITE_RHINO",         { "Wooly White Rhino",                           { 54068 }        } },
+    { "TCG_PAINT_BOMB",                { "Farbbombe",                                  { 54455 },        false, true } },
+    { "TCG_ETHEREAL_PORTAL",           { "Durchscheinendes Portal",                    { 54452 } } },
+    { "TCG_WOOLY_WHITE_RHINO",         { "Weißes Wollrhinozeros",                      { 54068 } } },
 
     // --- Points Redemption ---
-    { "TCG_TABARD_OF_FROST",           { "Tabard of Frost",                             { 23709 }        } },
-    { "TCG_PERPETUAL_PURPLE_FIREWORK", { "Perpetual Purple Firework",                   { 23714 }        } },
-    { "TCG_CARVED_OGRE_IDOL",          { "Carved Ogre Idol",                            { 23716 }        } },
-    { "TCG_TABARD_OF_THE_ARCANE",      { "Tabard of the Arcane",                        { 38310 }        } },
-    { "TCG_TABARD_OF_BRILLIANCE",      { "Tabard of Brilliance",                        { 38312 }        } },
-    { "TCG_TABARD_OF_THE_DEFENDER",    { "Tabard of the Defender",                      { 38314 }        } },
-    { "TCG_TABARD_OF_FURY",            { "Tabard of Fury",                              { 38313 }        } },
-    { "TCG_TABARD_OF_NATURE",          { "Tabard of Nature",                            { 38309 }        } },
-    { "TCG_TABARD_OF_THE_VOID",        { "Tabard of the Void",                          { 38311 }        } },
-    { "TCG_LANDROS_PET_BOX",           { "Landro's Pet Box",                            { 50301 }        } },
+    { "TCG_TABARD_OF_FROST",           { "Wappenrock des Frosts",                      { 23709 } } },
+    { "TCG_PERPETUAL_PURPLE_FIREWORK", { "Unerschöpfliches lila Feuerwerk",            { 23714 } } },
+    { "TCG_CARVED_OGRE_IDOL",          { "Geschnitzter Ogergötze",                     { 23716 } } },
+    { "TCG_TABARD_OF_THE_ARCANE",      { "Wappenrock des Arkanen",                     { 38310 } } },
+    { "TCG_TABARD_OF_BRILLIANCE",      { "Wappenrock der Brillanz",                    { 38312 } } },
+    { "TCG_TABARD_OF_THE_DEFENDER",    { "Wappenrock des Verteidigers",                { 38314 } } },
+    { "TCG_TABARD_OF_FURY",            { "Wappenrock des Furors",                      { 38313 } } },
+    { "TCG_TABARD_OF_NATURE",          { "Wappenrock der Natur",                       { 38309 } } },
+    { "TCG_TABARD_OF_THE_VOID",        { "Wappenrock der Leere",                       { 38311 } } },
+    { "TCG_LANDROS_PET_BOX",           { "Landros Haustiertransporter",                { 50301 } } },
 
     // --- Blizzcon promotional ---
-    { "BLIZZCON_MURKY",                { "Murky (Blue Murloc Egg)",                     { 20371 }        } },
-    { "BLIZZCON_MURLOC_COSTUME",       { "Murloc Costume",                              { 33079 }        } },
-    { "BLIZZCON_BIG_BLIZZARD_BEAR",    { "Big Blizzard Bear",                           { 43599 }        } },
+    { "BLIZZCON_MURKY",                { "Murky (Blaues Murlocei)",                    { 20371 } } },
+    { "BLIZZCON_MURLOC_COSTUME",       { "Murlockostüm",                               { 33079 } } },
+    { "BLIZZCON_BIG_BLIZZARD_BEAR",    { "Großer Blizzardbär",                         { 43599 } } },
 
     // --- Murloc companion eggs ---
-    { "PROMO_GURKY",             { "Gurky (Pink Murloc Egg)",   { 22114 }        } },
-    { "PROMO_ORANGE_MURLOC_EGG", { "Orange Murloc Egg",         { 20651 }        } },
-    { "PROMO_WHITE_MURLOC_EGG",  { "White Murloc Egg",          { 22780 }        } },
-    { "PROMO_HEAVY_MURLOC_EGG",  { "Heavy Murloc Egg",          { 46802 }        } },
-    { "PROMO_MURKIMUS_SPEAR",    { "Murkimus' Little Spear",    { 45180 }        } },
+    { "PROMO_GURKY",                   { "Gurky (Rosa Murlocei)",                      { 22114 } } },
+    { "PROMO_ORANGE_MURLOC_EGG",       { "Orangefarbenes Murlocei",                    { 20651 } } },
+    { "PROMO_WHITE_MURLOC_EGG",        { "Weißes Murlocei",                            { 22780 } } },
+    { "PROMO_HEAVY_MURLOC_EGG",        { "Schweres Murlocei",                          { 46802 } } },
+    { "PROMO_MURKIMUS_SPEAR",          { "Murkimus' kleiner Speer",                    { 45180 } } },
 
     // --- Classic & Special Promotions ---
-    { "PROMO_ZERGLING_LEASH",    { "Zergling Leash",            { 13582 }        } },
-    { "PROMO_PANDA_COLLAR",      { "Panda Collar",              { 13583 }        } },
-    { "PROMO_DIABLO_STONE",      { "Diablo Stone",              { 13584 }        } },
-    { "PROMO_NETHERWHELP",       { "Netherwhelp's Collar",      { 25535 }        } },
-    { "PROMO_FROSTYS_COLLAR",    { "Frosty's Collar",           { 39286 }        } },
-    { "WWI_TYRAELS_HILT",      { "Tyrael's Hilt",             { 39656 }        } },
-    { "PROMO_WARBOT_KEY",        { "Warbot Ignition Key",       { 46767 }        } },
+    { "PROMO_ZERGLING_LEASH",          { "Zerglinglasso",                              { 13582 } } },
+    { "PROMO_PANDA_COLLAR",            { "Pandahalsband",                              { 13583 } } },
+    { "PROMO_DIABLO_STONE",            { "Diablostein",                                { 13584 } } },
+    { "PROMO_NETHERWHELP",             { "Netherwelpenhalsband",                       { 25535 } } },
+    { "PROMO_FROSTYS_COLLAR",          { "Frostis Halsband",                           { 39286 } } },
+    { "WWI_TYRAELS_HILT",              { "Tyraels Schwertgriff",                       { 39656 } } },
+    { "PROMO_WARBOT_KEY",              { "Zündschlüssel für den Kampfbot",             { 46767 } } },
 
     // --- Blizzard Store ---
-    { "PROMO_ENCHANTED_ONYX",    { "Enchanted Onyx",            { 48527 }        } },
-    { "PROMO_CORE_HOUND_PUP",    { "Core Hound Pup",            { 49646 }        } },
-    { "PROMO_GRYPHON_HATCHLING", { "Gryphon Hatchling",         { 49662 }        } },
-    { "PROMO_WIND_RIDER_CUB",    { "Wind Rider Cub",            { 49663 }        } },
-    { "PROMO_PANDAREN_MONK",     { "Pandaren Monk",             { 49665 }        } },
+    { "PROMO_ENCHANTED_ONYX",          { "Verzauberter Onyx",                          { 48527 } } },
+    { "PROMO_CORE_HOUND_PUP",          { "Kernhundwelpe",                              { 49646 } } },
+    { "PROMO_GRYPHON_HATCHLING",       { "Greifenküken",                               { 49662 } } },
+    { "PROMO_WIND_RIDER_CUB",          { "Windreiterjunges",                           { 49663 } } },
+    { "PROMO_PANDAREN_MONK",           { "Pandarenmönch",                              { 49665 } } },
 
     // --- Special Events & Tournaments ---
-    { "PROMO_LIL_PHYLACTERY",    { "Lil' Phylactery",           { 49693 }        } },
-    { "PROMO_LIL_XT",            { "Lil' XT",                   { 54847 }        } },
-    { "PROMO_MINI_THOR",         { "Mini Thor",                 { 56806 }        } },
-    { "PROMO_ONYXIAN_WHELPLING", { "Onyxian Whelpling",         { 49362 }        } },
+    { "PROMO_LIL_PHYLACTERY",          { "Kleines Phylakterium",                       { 49693 } } },
+    { "PROMO_LIL_XT",                  { "XT der Kleine",                              { 54847 } } },
+    { "PROMO_MINI_THOR",               { "Mini-Thor",                                  { 56806 } } },
+    { "PROMO_ONYXIAN_WHELPLING",       { "Welpling von Onyxia",                        { 49362 } } },
 };
 
 // ============================================================
@@ -264,94 +264,94 @@ static const std::map<std::string, RewardGroup> REWARD_GROUPS =
 static const std::map<uint32, std::vector<TCGItem>> LANDRO_CATALOG =
 {
     { SENDER_HOA,  {
-        { "Tabard of Flame",                             { 23705 },        false, false, "TCG_TABARD_OF_FLAME"           },
-        { "Hippogryph Hatchling",                        { 23713 },        false, false, "TCG_HIPPOGRYPH_HATCHLING"      },
-        { "Riding Turtle",                               { 23720 },        false, false, "TCG_RIDING_TURTLE"             },
+        { "Wappenrock der Flamme",                      { 23705 },        false, false, "TCG_TABARD_OF_FLAME" },
+        { "Hippogryphenjunges",                         { 23713 },        false, false, "TCG_HIPPOGRYPH_HATCHLING" },
+        { "Reitschildkröte",                            { 23720 },        false, false, "TCG_RIDING_TURTLE" },
     }},
     { SENDER_TDP,  {
-        { "Picnic Basket",                               { 32566 },        false, false, "TCG_PICNIC_BASKET"             },
-        { "Banana Charm",                                { 32588 },        false, false, "TCG_BANANA_CHARM"              },
-        { "Imp in a Ball",                               { 32542 },        false, false, "TCG_IMP_IN_A_BALL"             },
+        { "Picknickkorb",                               { 32566 },        false, false, "TCG_PICNIC_BASKET" },
+        { "Glücksbanane",                               { 32588 },        false, false, "TCG_BANANA_CHARM" },
+        { "Wichtel in der Kugel",                       { 32542 },        false, false, "TCG_IMP_IN_A_BALL" },
     }},
     { SENDER_FOO,  {
-        { "Goblin Gumbo Kettle",                         { 33219 },        false, false, "TCG_GOBLIN_GUMBO_KETTLE"       },
-        { "Fishing Chair",                               { 33223 },        false, false, "TCG_FISHING_CHAIR"             },
-        { "Reins of the Spectral Tiger (both variants)", { 33224, 33225 }, false, false, "TCG_SPECTRAL_TIGER"            },
+        { "Kessel mit Goblingumbo",                     { 33219 },        false, false, "TCG_GOBLIN_GUMBO_KETTLE" },
+        { "Angelstuhl",                                 { 33223 },        false, false, "TCG_FISHING_CHAIR" },
+        { "Zügel des Spektraltigers (beide Varianten)", { 33224, 33225 }, false, false, "TCG_SPECTRAL_TIGER" },
     }},
     { SENDER_MOTL, {
-        { "Paper Flying Machine Kit",                    { 34499 },        false, false, "TCG_PAPER_FLYING_MACHINE"      },
-        { "Rocket Chicken",                              { 34492 },        false, false, "TCG_ROCKET_CHICKEN"            },
-        { "Dragon Kite",                                 { 34493 },        false, false, "TCG_DRAGON_KITE"               },
+        { "Papierflugmaschinenset",                     { 34499 },        false, false, "TCG_PAPER_FLYING_MACHINE" },
+        { "Raketenhühnchen",                            { 34492 },        false, false, "TCG_ROCKET_CHICKEN" },
+        { "Papierdrachen",                              { 34493 },        false, false, "TCG_DRAGON_KITE" },
     }},
     { SENDER_SOTB, {
-        { "X-51 Nether-Rocket (both variants)",          { 35225, 35226 }, false, false, "TCG_X51_NETHER_ROCKET"         },
-        { "Papa Hummel's Old-Fashioned Pet Biscuit",    { 35223 },        false, true,  "TCG_PET_BISCUIT"               },
-        { "Goblin Weather Machine - Prototype 01-B",     { 35227 },        false, false, "TCG_GOBLIN_WEATHER_MACHINE"    },
+        { "X-51 Netherrakete (beide Varianten)",        { 35225, 35226 }, false, false, "TCG_X51_NETHER_ROCKET" },
+        { "Papa Hummels traditionelles Leckerli",       { 35223 },        false, true,  "TCG_PET_BISCUIT" },
+        { "Wunschwettermaschine - Prototyp 01-B",       { 35227 },        false, false, "TCG_GOBLIN_WEATHER_MACHINE" },
     }},
     { SENDER_HFI,  {
-        { "Path of Illidan",                             { 38233 },        false, true,  "TCG_PATH_OF_ILLIDAN"           },
-        { "D.I.S.C.O.",                                  { 38301 },        false, false, "TCG_DISCO"                     },
-        { "Soul-Trader Beacon",                          { 38050 },        false, false, "TCG_SOUL_TRADER_BEACON"        },  // permanent companion
+        { "Illidans Pfad",                              { 38233 },        false, true,  "TCG_PATH_OF_ILLIDAN" },
+        { "D.I.S.C.O.",                                 { 38301 },        false, false, "TCG_DISCO" },
+        { "Leuchtsignal des Seelenhändlers",            { 38050 },        false, false, "TCG_SOUL_TRADER_BEACON" },  // permanent companion
     }},
     { SENDER_DOW,  {
-        { "Party G.R.E.N.A.D.E.",                        { 38577 },        false, true,  "TCG_PARTY_GRENADE"             },
-        { "The Flag of Ownership",                       { 38578 },        false, false, "TCG_FLAG_OF_OWNERSHIP"         },
-        { "Big Battle Bear",                             { 38576 },        false, false, "TCG_BIG_BATTLE_BEAR"           },
+        { "Party-\"G.R.A.N.A.T.E.\"",                   { 38577 },        false, true,  "TCG_PARTY_GRENADE" },
+        { "Die Siegesflagge",                           { 38578 },        false, false, "TCG_FLAG_OF_OWNERSHIP" },
+        { "Großer Kriegsbär",                           { 38576 },        false, false, "TCG_BIG_BATTLE_BEAR" },
     }},
     { SENDER_BOG,  {
-        { "Sandbox Tiger",                               { 45047 },        false, true,  "TCG_SANDBOX_TIGER"             },
-        { "Epic Purple Shirt",                           { 45037 },        false, false, "TCG_EPIC_PURPLE_SHIRT"         },
-        { "Foam Sword Rack",                             { 45063 },        false, false, "TCG_FOAM_SWORD_RACK"           },
+        { "Sandkastentiger",                            { 45047 },        false, true,  "TCG_SANDBOX_TIGER" },
+        { "Episches violettes Hemd",                    { 45037 },        false, false, "TCG_EPIC_PURPLE_SHIRT" },
+        { "Schaumstoffschwertständer",                  { 45063 },        false, false, "TCG_FOAM_SWORD_RACK" },
     }},
     { SENDER_FOH,  {
-        { "Path of Cenarius",                            { 46779 },        false, true,  "TCG_PATH_OF_CENARIUS"          },
-        { "Ogre Pinata",                                 { 46780 },        false, false, "TCG_OGRE_PINATA"               },
-        { "Magic Rooster Egg",                           { 46778 },        false, false, "TCG_MAGIC_ROOSTER_EGG"         },
+        { "Pfad des Cenarius",                          { 46779 },        false, true,  "TCG_PATH_OF_CENARIUS" },
+        { "Ogerpinata",                                 { 46780 },        false, false, "TCG_OGRE_PINATA" },
+        { "Magisches Hühnerei",                         { 46778 },        false, false, "TCG_MAGIC_ROOSTER_EGG" },
     }},
     { SENDER_SW,   {
-        { "Scourgewar Mini-Mount",                       { 49288, 49289 }, true,  true,  "TCG_SCOURGEWAR_MINIMOUNT"      },
-        { "Tuskarr Kite",                                { 49287 },        false, false, "TCG_TUSKARR_KITE"              },
-        { "Spectral Tiger Cub",                          { 49343 },        false, false, "TCG_SPECTRAL_TIGER_CUB"        },
+        { "Scourgewar-Minireittier",                    { 49288, 49289 }, true,  true,  "TCG_SCOURGEWAR_MINIMOUNT" },
+        { "Tuskarrdrachen",                             { 49287 },        false, false, "TCG_TUSKARR_KITE" },
+        { "Spektraltigerjunges",                        { 49343 },        false, false, "TCG_SPECTRAL_TIGER_CUB" },
     }},
     { SENDER_WG,   {
-        { "Landro's Gift Box",                          { 54218 },        false, false, "TCG_LANDROS_GIFT_BOX"          },
-        { "Instant Statue Pedestal",                     { 54212 },        false, false, "TCG_INSTANT_STATUE_PEDESTAL"   },
-        { "Blazing Hippogryph",                          { 54069 },        false, false, "TCG_BLAZING_HIPPOGRYPH"        },
+        { "Landros Geschenkkiste",                      { 54218 },        false, false, "TCG_LANDROS_GIFT_BOX" },
+        { "Aufstellbares Statuenpodest",                { 54212 },        false, false, "TCG_INSTANT_STATUE_PEDESTAL" },
+        { "Flammender Hippogryph",                      { 54069 },        false, false, "TCG_BLAZING_HIPPOGRYPH" },
     }},
     { SENDER_IC,   {
-        { "Paint Bomb",                                  { 54455 },        false, true,  "TCG_PAINT_BOMB"                },
-        { "Ethereal Portal",                             { 54452 },        false, false, "TCG_ETHEREAL_PORTAL"           },
-        { "Wooly White Rhino",                           { 54068 },        false, false, "TCG_WOOLY_WHITE_RHINO"         },
+        { "Farbbombe",                                  { 54455 },        false, true,  "TCG_PAINT_BOMB" },
+        { "Durchscheinendes Portal",                    { 54452 },        false, false, "TCG_ETHEREAL_PORTAL" },
+        { "Weißes Wollrhinozeros",                      { 54068 },        false, false, "TCG_WOOLY_WHITE_RHINO" },
     }},
     { SENDER_PR,   {
-        { "Tabard of Frost",                             { 23709 },        false, false, "TCG_TABARD_OF_FROST"           },
-        { "Perpetual Purple Firework",                   { 23714 },        false, false, "TCG_PERPETUAL_PURPLE_FIREWORK" },
-        { "Carved Ogre Idol",                            { 23716 },        false, false, "TCG_CARVED_OGRE_IDOL"          },
-        { "Tabard of the Arcane",                        { 38310 },        false, false, "TCG_TABARD_OF_THE_ARCANE"      },
-        { "Tabard of Brilliance",                        { 38312 },        false, false, "TCG_TABARD_OF_BRILLIANCE"      },
-        { "Tabard of the Defender",                      { 38314 },        false, false, "TCG_TABARD_OF_THE_DEFENDER"    },
-        { "Tabard of Fury",                              { 38313 },        false, false, "TCG_TABARD_OF_FURY"            },
-        { "Tabard of Nature",                            { 38309 },        false, false, "TCG_TABARD_OF_NATURE"          },
-        { "Tabard of the Void",                          { 38311 },        false, false, "TCG_TABARD_OF_THE_VOID"        },
-        { "Landro's Pet Box",                           { 50301 },        false, false, "TCG_LANDROS_PET_BOX"           },
+        { "Wappenrock des Frosts",                      { 23709 },        false, false, "TCG_TABARD_OF_FROST" },
+        { "Unerschöpfliches lila Feuerwerk",            { 23714 },        false, false, "TCG_PERPETUAL_PURPLE_FIREWORK" },
+        { "Geschnitzter Ogergötze",                     { 23716 },        false, false, "TCG_CARVED_OGRE_IDOL" },
+        { "Wappenrock des Arkanen",                     { 38310 },        false, false, "TCG_TABARD_OF_THE_ARCANE" },
+        { "Wappenrock der Brillanz",                    { 38312 },        false, false, "TCG_TABARD_OF_BRILLIANCE" },
+        { "Wappenrock des Verteidigers",                { 38314 },        false, false, "TCG_TABARD_OF_THE_DEFENDER" },
+        { "Wappenrock des Furors",                      { 38313 },        false, false, "TCG_TABARD_OF_FURY" },
+        { "Wappenrock der Natur",                       { 38309 },        false, false, "TCG_TABARD_OF_NATURE" },
+        { "Wappenrock der Leere",                       { 38311 },        false, false, "TCG_TABARD_OF_THE_VOID" },
+        { "Landros Haustiertransporter",                { 50301 },        false, false, "TCG_LANDROS_PET_BOX" },
     }},
 };
 
 static const std::map<uint32, std::string> EXPANSION_NAMES =
 {
-    { SENDER_HOA,  "Heroes of Azeroth"        },
-    { SENDER_TDP,  "Through the Dark Portal"  },
-    { SENDER_FOO,  "Fires of Outland"         },
-    { SENDER_MOTL, "March of the Legion"      },
+    { SENDER_HOA,  "Heroes of Azeroth" },
+    { SENDER_TDP,  "Through the Dark Portal" },
+    { SENDER_FOO,  "Fires of Outland" },
+    { SENDER_MOTL, "March of the Legion" },
     { SENDER_SOTB, "Servants of the Betrayer" },
-    { SENDER_HFI,  "Hunt for Illidan"         },
-    { SENDER_DOW,  "Drums of War"             },
-    { SENDER_BOG,  "Blood of Gladiators"      },
-    { SENDER_FOH,  "Fields of Honor"          },
-    { SENDER_SW,   "Scourgewar"               },
-    { SENDER_WG,   "Wrathgate"                },
-    { SENDER_IC,   "Icecrown"                 },
-    { SENDER_PR,   "Points Redemption"        },
+    { SENDER_HFI,  "Hunt for Illidan" },
+    { SENDER_DOW,  "Drums of War" },
+    { SENDER_BOG,  "Blood of Gladiators" },
+    { SENDER_FOH,  "Fields of Honor" },
+    { SENDER_SW,   "Scourgewar" },
+    { SENDER_WG,   "Wrathgate" },
+    { SENDER_IC,   "Icecrown" },
+    { SENDER_PR,   "Points Redemption" },
 };
 
 // ============================================================
@@ -362,15 +362,15 @@ static const std::map<uint32, std::string> EXPANSION_NAMES =
 // ============================================================
 static const std::vector<TCGItem> TYRAELS_CATALOG =
 {
-    { "Tyrael's Hilt", { 39656 }, false, false, "WWI_TYRAELS_HILT" },
+    { "Tyraels Schwertgriff", { 39656 }, false, false, "WWI_TYRAELS_HILT" },
 };
 
 static const std::map<uint32, std::string> PROMO_CATEGORY_NAMES =
 {
-    { SENDER_PROMO_MURLOC,  "Murloc Companions"             },
-    { SENDER_PROMO_CLASSIC, "Classic & Special Promotions"  },
-    { SENDER_PROMO_STORE,   "Blizzard Store"                },
-    { SENDER_PROMO_EVENTS,  "Special Events & Tournaments"  },
+    { SENDER_PROMO_MURLOC,  "Murloc Companions" },
+    { SENDER_PROMO_CLASSIC, "Classic & Special Promotions" },
+    { SENDER_PROMO_STORE,   "Blizzard Store" },
+    { SENDER_PROMO_EVENTS,  "Special Events & Tournaments" },
 };
 
 // ============================================================
@@ -378,9 +378,9 @@ static const std::map<uint32, std::string> PROMO_CATEGORY_NAMES =
 // ============================================================
 static const std::vector<TCGItem> BLIZZCON_CATALOG =
 {
-    { "Murky (Blue Murloc Egg)", { 20371 }, false, false, "BLIZZCON_MURKY"             },
-    { "Murloc Costume",          { 33079 }, false, false, "BLIZZCON_MURLOC_COSTUME"    },
-    { "Big Blizzard Bear",       { 43599 }, false, false, "BLIZZCON_BIG_BLIZZARD_BEAR" },
+    { "Murky (Blaues Murlocei)", { 20371 }, false, false, "BLIZZCON_MURKY" },
+    { "Murlockostüm",            { 33079 }, false, false, "BLIZZCON_MURLOC_COSTUME" },
+    { "Großer Blizzardbär",      { 43599 }, false, false, "BLIZZCON_BIG_BLIZZARD_BEAR" },
 };
 
 // ============================================================
@@ -389,34 +389,34 @@ static const std::vector<TCGItem> BLIZZCON_CATALOG =
 static const std::map<uint32, std::vector<TCGItem>> PROMO_CATALOG =
 {
     { SENDER_PROMO_MURLOC,  {
-        { "Gurky (Pink Murloc Egg)",   { 22114 }, false, false, "PROMO_GURKY"              },
-        { "Orange Murloc Egg",         { 20651 }, false, false, "PROMO_ORANGE_MURLOC_EGG"  },
-        { "White Murloc Egg",          { 22780 }, false, false, "PROMO_WHITE_MURLOC_EGG"   },
-        { "Heavy Murloc Egg",          { 46802 }, false, false, "PROMO_HEAVY_MURLOC_EGG"   },
-        { "Murkimus' Little Spear",    { 45180 }, false, false, "PROMO_MURKIMUS_SPEAR"     },
+        { "Gurky (Rosa Murlocei)",          { 22114 }, false, false, "PROMO_GURKY" },
+        { "Orangefarbenes Murlocei",        { 20651 }, false, false, "PROMO_ORANGE_MURLOC_EGG" },
+        { "Weißes Murlocei",                { 22780 }, false, false, "PROMO_WHITE_MURLOC_EGG" },
+        { "Schweres Murlocei",              { 46802 }, false, false, "PROMO_HEAVY_MURLOC_EGG" },
+        { "Murkimus' kleiner Speer",        { 45180 }, false, false, "PROMO_MURKIMUS_SPEAR" },
     }},
     { SENDER_PROMO_CLASSIC, {
-        { "Zergling Leash",            { 13582 }, false, false, "PROMO_ZERGLING_LEASH"     },
-        { "Panda Collar",              { 13583 }, false, false, "PROMO_PANDA_COLLAR"       },
-        { "Diablo Stone",              { 13584 }, false, false, "PROMO_DIABLO_STONE"       },
-        { "Netherwhelp's Collar",      { 25535 }, false, false, "PROMO_NETHERWHELP"        },
-        { "Frosty's Collar",           { 39286 }, false, false, "PROMO_FROSTYS_COLLAR"     },
-        { "Warbot Ignition Key",        { 46767 }, false, false, "PROMO_WARBOT_KEY"         },
-        { "Red War Fuel",              { 46766 }, false, true,  "PROMO_RED_WAR_FUEL",  WARBOT_PET_SPELL },
-        { "Blue War Fuel",             { 46765 }, false, true,  "PROMO_BLUE_WAR_FUEL", WARBOT_PET_SPELL },
+        { "Zerglinglasso",                  { 13582 }, false, false, "PROMO_ZERGLING_LEASH" },
+        { "Pandahalsband",                  { 13583 }, false, false, "PROMO_PANDA_COLLAR" },
+        { "Diablostein",                    { 13584 }, false, false, "PROMO_DIABLO_STONE" },
+        { "Netherwelpenhalsband",           { 25535 }, false, false, "PROMO_NETHERWHELP" },
+        { "Frostis Halsband",               { 39286 }, false, false, "PROMO_FROSTYS_COLLAR" },
+        { "Zündschlüssel für den Kampfbot", { 46767 }, false, false, "PROMO_WARBOT_KEY" },
+        { "Roter Kampfkraftstoff",          { 46766 }, false, true,  "PROMO_RED_WAR_FUEL",      WARBOT_PET_SPELL },
+        { "Blauer Kriegstreibstoff",        { 46765 }, false, true,  "PROMO_BLUE_WAR_FUEL",     WARBOT_PET_SPELL },
     }},
     { SENDER_PROMO_STORE,   {
-        { "Enchanted Onyx",            { 48527 }, false, false, "PROMO_ENCHANTED_ONYX"     },
-        { "Core Hound Pup",            { 49646 }, false, false, "PROMO_CORE_HOUND_PUP"     },
-        { "Gryphon Hatchling",         { 49662 }, false, false, "PROMO_GRYPHON_HATCHLING"  },
-        { "Wind Rider Cub",            { 49663 }, false, false, "PROMO_WIND_RIDER_CUB"     },
-        { "Pandaren Monk",             { 49665 }, false, false, "PROMO_PANDAREN_MONK"      },
+        { "Verzauberter Onyx",              { 48527 }, false, false, "PROMO_ENCHANTED_ONYX" },
+        { "Kernhundwelpe",                  { 49646 }, false, false, "PROMO_CORE_HOUND_PUP" },
+        { "Greifenküken",                   { 49662 }, false, false, "PROMO_GRYPHON_HATCHLING" },
+        { "Windreiterjunges",               { 49663 }, false, false, "PROMO_WIND_RIDER_CUB" },
+        { "Pandarenmönch",                  { 49665 }, false, false, "PROMO_PANDAREN_MONK" },
     }},
     { SENDER_PROMO_EVENTS,  {
-        { "Lil' Phylactery",           { 49693 }, false, false, "PROMO_LIL_PHYLACTERY"     },
-        { "Lil' XT",                   { 54847 }, false, false, "PROMO_LIL_XT"             },
-        { "Mini Thor",                 { 56806 }, false, false, "PROMO_MINI_THOR"           },
-        { "Onyxian Whelpling",         { 49362 }, false, false, "PROMO_ONYXIAN_WHELPLING"  },
+        { "Kleines Phylakterium",           { 49693 }, false, false, "PROMO_LIL_PHYLACTERY" },
+        { "XT der Kleine",                  { 54847 }, false, false, "PROMO_LIL_XT" },
+        { "Mini-Thor",                      { 56806 }, false, false, "PROMO_MINI_THOR" },
+        { "Welpling von Onyxia",            { 49362 }, false, false, "PROMO_ONYXIAN_WHELPLING" },
     }},
 };
 
