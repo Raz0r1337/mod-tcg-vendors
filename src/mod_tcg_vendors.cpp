@@ -150,110 +150,110 @@ struct RewardGroup
 static const std::map<std::string, RewardGroup> REWARD_GROUPS =
 {
     // --- Heroes of Azeroth ---
-    { "TCG_TABARD_OF_FLAME",           { "Tabard of Flame",                             { 23705 }        } },
-    { "TCG_HIPPOGRYPH_HATCHLING",      { "Hippogryph Hatchling",                        { 23713 }        } },
-    { "TCG_RIDING_TURTLE",             { "Riding Turtle",                               { 23720 }        } },
+    { "TCG_TABARD_OF_FLAME",           { "Wappenrock der Flamme",                      { 23705 }                     } },
+    { "TCG_HIPPOGRYPH_HATCHLING",      { "Hippogryphenjunges",                         { 23713 }                     } },
+    { "TCG_RIDING_TURTLE",             { "Reitschildkröte",                            { 23720 }                     } },
 
     // --- Through the Dark Portal ---
-    { "TCG_PICNIC_BASKET",             { "Picnic Basket",                               { 32566 }        } },
-    { "TCG_BANANA_CHARM",              { "Banana Charm",                                { 32588 }        } },
-    { "TCG_IMP_IN_A_BALL",             { "Imp in a Ball",                               { 32542 }        } },
+    { "TCG_PICNIC_BASKET",             { "Picknickkorb",                               { 32566 }                     } },
+    { "TCG_BANANA_CHARM",              { "Glücksbanane",                               { 32588 }                     } },
+    { "TCG_IMP_IN_A_BALL",             { "Wichtel in der Kugel",                       { 32542 }                     } },
 
     // --- Fires of Outland ---
-    { "TCG_GOBLIN_GUMBO_KETTLE",       { "Goblin Gumbo Kettle",                         { 33219 }        } },
-    { "TCG_FISHING_CHAIR",             { "Fishing Chair",                               { 33223 }        } },
-    { "TCG_SPECTRAL_TIGER",            { "Reins of the Spectral Tiger (both variants)", { 33224, 33225 } } },
+    { "TCG_GOBLIN_GUMBO_KETTLE",       { "Kessel mit Goblingumbo",                     { 33219 }                     } },
+    { "TCG_FISHING_CHAIR",             { "Angelstuhl",                                 { 33223 }                     } },
+    { "TCG_SPECTRAL_TIGER",            { "Zügel des Spektraltigers (beide Varianten)", { 33224, 33225 }              } },
 
     // --- March of the Legion ---
-    { "TCG_PAPER_FLYING_MACHINE",      { "Paper Flying Machine Kit",                    { 34499 }        } },
-    { "TCG_ROCKET_CHICKEN",            { "Rocket Chicken",                              { 34492 }        } },
-    { "TCG_DRAGON_KITE",               { "Dragon Kite",                                 { 34493 }        } },
+    { "TCG_PAPER_FLYING_MACHINE",      { "Papierflugmaschinenset",                     { 34499 }                     } },
+    { "TCG_ROCKET_CHICKEN",            { "Raketenhühnchen",                            { 34492 }                     } },
+    { "TCG_DRAGON_KITE",               { "Papierdrachen",                              { 34493 }                     } },
 
     // --- Servants of the Betrayer ---
-    { "TCG_X51_NETHER_ROCKET",         { "X-51 Nether-Rocket (both variants)",          { 35225, 35226 } } },
-    { "TCG_PET_BISCUIT",               { "Papa Hummel's Old-Fashioned Pet Biscuit",     { 35223 }, false, true } },
-    { "TCG_GOBLIN_WEATHER_MACHINE",    { "Goblin Weather Machine - Prototype 01-B",     { 35227 }        } },
+    { "TCG_X51_NETHER_ROCKET",         { "X-51 Netherrakete (beide Varianten)",        { 35225, 35226 }              } },
+    { "TCG_PET_BISCUIT",               { "Papa Hummels traditionelles Leckerli",       { 35223 },        false, true } },
+    { "TCG_GOBLIN_WEATHER_MACHINE",    { "Wunschwettermaschine - Prototyp 01-B",       { 35227 }                     } },
 
     // --- Hunt for Illidan ---
-    { "TCG_PATH_OF_ILLIDAN",           { "Path of Illidan",                             { 38233 }, false, true } },
-    { "TCG_DISCO",                     { "D.I.S.C.O.",                                  { 38301 }        } },
-    { "TCG_SOUL_TRADER_BEACON",        { "Soul-Trader Beacon",                          { 38050 }        } },
+    { "TCG_PATH_OF_ILLIDAN",           { "Illidans Pfad",                              { 38233 },        false, true } },
+    { "TCG_DISCO",                     { "D.I.S.C.O.",                                 { 38301 }                     } },
+    { "TCG_SOUL_TRADER_BEACON",        { "Leuchtsignal des Seelenhändlers",            { 38050 }                     } },
 
     // --- Drums of War ---
-    { "TCG_PARTY_GRENADE",             { "Party G.R.E.N.A.D.E.",                        { 38577 }, false, true } },
-    { "TCG_FLAG_OF_OWNERSHIP",         { "The Flag of Ownership",                       { 38578 }        } },
-    { "TCG_BIG_BATTLE_BEAR",           { "Big Battle Bear",                             { 38576 }        } },
+    { "TCG_PARTY_GRENADE",             { "Party-\"G.R.A.N.A.T.E.\"",                   { 38577 },        false, true } },
+    { "TCG_FLAG_OF_OWNERSHIP",         { "Die Siegesflagge",                           { 38578 }                     } },
+    { "TCG_BIG_BATTLE_BEAR",           { "Großer Kriegsbär",                           { 38576 }                     } },
 
     // --- Blood of Gladiators ---
-    { "TCG_SANDBOX_TIGER",             { "Sandbox Tiger",                               { 45047 }, false, true } },
-    { "TCG_EPIC_PURPLE_SHIRT",         { "Epic Purple Shirt",                           { 45037 }        } },
-    { "TCG_FOAM_SWORD_RACK",           { "Foam Sword Rack",                             { 45063 }        } },
+    { "TCG_SANDBOX_TIGER",             { "Sandkastentiger",                            { 45047 },        false, true } },
+    { "TCG_EPIC_PURPLE_SHIRT",         { "Episches violettes Hemd",                    { 45037 }                     } },
+    { "TCG_FOAM_SWORD_RACK",           { "Schaumstoffschwertständer",                  { 45063 }                     } },
 
     // --- Fields of Honor ---
-    { "TCG_PATH_OF_CENARIUS",          { "Path of Cenarius",                            { 46779 }, false, true } },
-    { "TCG_OGRE_PINATA",               { "Ogre Pinata",                                 { 46780 }        } },
-    { "TCG_MAGIC_ROOSTER_EGG",         { "Magic Rooster Egg",                           { 46778 }        } },
+    { "TCG_PATH_OF_CENARIUS",          { "Pfad des Cenarius",                          { 46779 },        false, true } },
+    { "TCG_OGRE_PINATA",               { "Ogerpinata",                                 { 46780 }                     } },
+    { "TCG_MAGIC_ROOSTER_EGG",         { "Magisches Hühnerei",                         { 46778 }                     } },
 
     // --- Scourgewar ---
-    { "TCG_SCOURGEWAR_MINIMOUNT",      { "Scourgewar Mini-Mount",                       { 49288, 49289 }, true, true } },
-    { "TCG_TUSKARR_KITE",              { "Tuskarr Kite",                                { 49287 }        } },
-    { "TCG_SPECTRAL_TIGER_CUB",        { "Spectral Tiger Cub",                          { 49343 }        } },
+    { "TCG_SCOURGEWAR_MINIMOUNT",      { "Scourgewar-Minireittier",                    { 49288, 49289 }, true,  true } },
+    { "TCG_TUSKARR_KITE",              { "Tuskarrdrachen",                             { 49287 }                     } },
+    { "TCG_SPECTRAL_TIGER_CUB",        { "Spektraltigerjunges",                        { 49343 }                     } },
 
     // --- Wrathgate ---
-    { "TCG_LANDROS_GIFT_BOX",          { "Landro's Gift Box",                           { 54218 }        } },
-    { "TCG_INSTANT_STATUE_PEDESTAL",   { "Instant Statue Pedestal",                     { 54212 }        } },
-    { "TCG_BLAZING_HIPPOGRYPH",        { "Blazing Hippogryph",                          { 54069 }        } },
+    { "TCG_LANDROS_GIFT_BOX",          { "Landros Geschenkkiste",                      { 54218 }                     } },
+    { "TCG_INSTANT_STATUE_PEDESTAL",   { "Aufstellbares Statuenpodest",                { 54212 }                     } },
+    { "TCG_BLAZING_HIPPOGRYPH",        { "Flammender Hippogryph",                      { 54069 }                     } },
 
     // --- Icecrown ---
-    { "TCG_PAINT_BOMB",                { "Paint Bomb",                                  { 54455 }, false, true } },
-    { "TCG_ETHEREAL_PORTAL",           { "Ethereal Portal",                             { 54452 }        } },
-    { "TCG_WOOLY_WHITE_RHINO",         { "Wooly White Rhino",                           { 54068 }        } },
+    { "TCG_PAINT_BOMB",                { "Farbbombe",                                  { 54455 },        false, true } },
+    { "TCG_ETHEREAL_PORTAL",           { "Durchscheinendes Portal",                    { 54452 }                     } },
+    { "TCG_WOOLY_WHITE_RHINO",         { "Weißes Wollrhinozeros",                      { 54068 }                     } },
 
     // --- Points Redemption ---
-    { "TCG_TABARD_OF_FROST",           { "Tabard of Frost",                             { 23709 }        } },
-    { "TCG_PERPETUAL_PURPLE_FIREWORK", { "Perpetual Purple Firework",                   { 23714 }        } },
-    { "TCG_CARVED_OGRE_IDOL",          { "Carved Ogre Idol",                            { 23716 }        } },
-    { "TCG_TABARD_OF_THE_ARCANE",      { "Tabard of the Arcane",                        { 38310 }        } },
-    { "TCG_TABARD_OF_BRILLIANCE",      { "Tabard of Brilliance",                        { 38312 }        } },
-    { "TCG_TABARD_OF_THE_DEFENDER",    { "Tabard of the Defender",                      { 38314 }        } },
-    { "TCG_TABARD_OF_FURY",            { "Tabard of Fury",                              { 38313 }        } },
-    { "TCG_TABARD_OF_NATURE",          { "Tabard of Nature",                            { 38309 }        } },
-    { "TCG_TABARD_OF_THE_VOID",        { "Tabard of the Void",                          { 38311 }        } },
-    { "TCG_LANDROS_PET_BOX",           { "Landro's Pet Box",                            { 50301 }        } },
+    { "TCG_TABARD_OF_FROST",           { "Wappenrock des Frosts",                      { 23709 }                     } },
+    { "TCG_PERPETUAL_PURPLE_FIREWORK", { "Unerschöpfliches lila Feuerwerk",            { 23714 }                     } },
+    { "TCG_CARVED_OGRE_IDOL",          { "Geschnitzter Ogergötze",                     { 23716 }                     } },
+    { "TCG_TABARD_OF_THE_ARCANE",      { "Wappenrock des Arkanen",                     { 38310 }                     } },
+    { "TCG_TABARD_OF_BRILLIANCE",      { "Wappenrock der Brillanz",                    { 38312 }                     } },
+    { "TCG_TABARD_OF_THE_DEFENDER",    { "Wappenrock des Verteidigers",                { 38314 }                     } },
+    { "TCG_TABARD_OF_FURY",            { "Wappenrock des Furors",                      { 38313 }                     } },
+    { "TCG_TABARD_OF_NATURE",          { "Wappenrock der Natur",                       { 38309 }                     } },
+    { "TCG_TABARD_OF_THE_VOID",        { "Wappenrock der Leere",                       { 38311 }                     } },
+    { "TCG_LANDROS_PET_BOX",           { "Landros Haustiertransporter",                { 50301 }                     } },
 
     // --- Blizzcon promotional ---
-    { "BLIZZCON_MURKY",                { "Murky (Blue Murloc Egg)",                     { 20371 }        } },
-    { "BLIZZCON_MURLOC_COSTUME",       { "Murloc Costume",                              { 33079 }        } },
-    { "BLIZZCON_BIG_BLIZZARD_BEAR",    { "Big Blizzard Bear",                           { 43599 }        } },
+    { "BLIZZCON_MURKY",                { "Murky (Blaues Murlocei)",                    { 20371 }                     } },
+    { "BLIZZCON_MURLOC_COSTUME",       { "Murlockostüm",                               { 33079 }                     } },
+    { "BLIZZCON_BIG_BLIZZARD_BEAR",    { "Großer Blizzardbär",                         { 43599 }                     } },
 
     // --- Murloc companion eggs ---
-    { "PROMO_GURKY",             { "Gurky (Pink Murloc Egg)",   { 22114 }        } },
-    { "PROMO_ORANGE_MURLOC_EGG", { "Orange Murloc Egg",         { 20651 }        } },
-    { "PROMO_WHITE_MURLOC_EGG",  { "White Murloc Egg",          { 22780 }        } },
-    { "PROMO_HEAVY_MURLOC_EGG",  { "Heavy Murloc Egg",          { 46802 }        } },
-    { "PROMO_MURKIMUS_SPEAR",    { "Murkimus' Little Spear",    { 45180 }        } },
+    { "PROMO_GURKY",                   { "Gurky (Rosa Murlocei)",                      { 22114 }                     } },
+    { "PROMO_ORANGE_MURLOC_EGG",       { "Orangefarbenes Murlocei",                    { 20651 }                     } },
+    { "PROMO_WHITE_MURLOC_EGG",        { "Weißes Murlocei",                            { 22780 }                     } },
+    { "PROMO_HEAVY_MURLOC_EGG",        { "Schweres Murlocei",                          { 46802 }                     } },
+    { "PROMO_MURKIMUS_SPEAR",          { "Murkimus' kleiner Speer",                    { 45180 }                     } },
 
     // --- Classic & Special Promotions ---
-    { "PROMO_ZERGLING_LEASH",    { "Zergling Leash",            { 13582 }        } },
-    { "PROMO_PANDA_COLLAR",      { "Panda Collar",              { 13583 }        } },
-    { "PROMO_DIABLO_STONE",      { "Diablo Stone",              { 13584 }        } },
-    { "PROMO_NETHERWHELP",       { "Netherwhelp's Collar",      { 25535 }        } },
-    { "PROMO_FROSTYS_COLLAR",    { "Frosty's Collar",           { 39286 }        } },
-    { "WWI_TYRAELS_HILT",      { "Tyrael's Hilt",             { 39656 }        } },
-    { "PROMO_WARBOT_KEY",        { "Warbot Ignition Key",       { 46767 }        } },
+    { "PROMO_ZERGLING_LEASH",          { "Zerglinglasso",                              { 13582 }                     } },
+    { "PROMO_PANDA_COLLAR",            { "Pandahalsband",                              { 13583 }                     } },
+    { "PROMO_DIABLO_STONE",            { "Diablostein",                                { 13584 }                     } },
+    { "PROMO_NETHERWHELP",             { "Netherwelpenhalsband",                       { 25535 }                     } },
+    { "PROMO_FROSTYS_COLLAR",          { "Frostis Halsband",                           { 39286 }                     } },
+    { "WWI_TYRAELS_HILT",              { "Tyraels Schwertgriff",                       { 39656 }                     } },
+    { "PROMO_WARBOT_KEY",              { "Zündschlüssel für den Kampfbot",             { 46767 }                     } },
 
     // --- Blizzard Store ---
-    { "PROMO_ENCHANTED_ONYX",    { "Enchanted Onyx",            { 48527 }        } },
-    { "PROMO_CORE_HOUND_PUP",    { "Core Hound Pup",            { 49646 }        } },
-    { "PROMO_GRYPHON_HATCHLING", { "Gryphon Hatchling",         { 49662 }        } },
-    { "PROMO_WIND_RIDER_CUB",    { "Wind Rider Cub",            { 49663 }        } },
-    { "PROMO_PANDAREN_MONK",     { "Pandaren Monk",             { 49665 }        } },
+    { "PROMO_ENCHANTED_ONYX",          { "Verzauberter Onyx",                          { 48527 }                     } },
+    { "PROMO_CORE_HOUND_PUP",          { "Kernhundwelpe",                              { 49646 }                     } },
+    { "PROMO_GRYPHON_HATCHLING",       { "Greifenküken",                               { 49662 }                     } },
+    { "PROMO_WIND_RIDER_CUB",          { "Windreiterjunges",                           { 49663 }                     } },
+    { "PROMO_PANDAREN_MONK",           { "Pandarenmönch",                              { 49665 }                     } },
 
     // --- Special Events & Tournaments ---
-    { "PROMO_LIL_PHYLACTERY",    { "Lil' Phylactery",           { 49693 }        } },
-    { "PROMO_LIL_XT",            { "Lil' XT",                   { 54847 }        } },
-    { "PROMO_MINI_THOR",         { "Mini Thor",                 { 56806 }        } },
-    { "PROMO_ONYXIAN_WHELPLING", { "Onyxian Whelpling",         { 49362 }        } },
+    { "PROMO_LIL_PHYLACTERY",          { "Kleines Phylakterium",                       { 49693 }                     } },
+    { "PROMO_LIL_XT",                  { "XT der Kleine",                              { 54847 }                     } },
+    { "PROMO_MINI_THOR",               { "Mini-Thor",                                  { 56806 }                     } },
+    { "PROMO_ONYXIAN_WHELPLING",       { "Welpling von Onyxia",                        { 49362 }                     } },
 };
 
 // ============================================================
@@ -264,76 +264,76 @@ static const std::map<std::string, RewardGroup> REWARD_GROUPS =
 static const std::map<uint32, std::vector<TCGItem>> LANDRO_CATALOG =
 {
     { SENDER_HOA,  {
-        { "Tabard of Flame",                             { 23705 },        false, false, "TCG_TABARD_OF_FLAME"           },
-        { "Hippogryph Hatchling",                        { 23713 },        false, false, "TCG_HIPPOGRYPH_HATCHLING"      },
-        { "Riding Turtle",                               { 23720 },        false, false, "TCG_RIDING_TURTLE"             },
+        { "Wappenrock der Flamme",                      { 23705 },        false, false, "TCG_TABARD_OF_FLAME"           },
+        { "Hippogryphenjunges",                         { 23713 },        false, false, "TCG_HIPPOGRYPH_HATCHLING"      },
+        { "Reitschildkröte",                            { 23720 },        false, false, "TCG_RIDING_TURTLE"             },
     }},
     { SENDER_TDP,  {
-        { "Picnic Basket",                               { 32566 },        false, false, "TCG_PICNIC_BASKET"             },
-        { "Banana Charm",                                { 32588 },        false, false, "TCG_BANANA_CHARM"              },
-        { "Imp in a Ball",                               { 32542 },        false, false, "TCG_IMP_IN_A_BALL"             },
+        { "Picknickkorb",                               { 32566 },        false, false, "TCG_PICNIC_BASKET"             },
+        { "Glücksbanane",                               { 32588 },        false, false, "TCG_BANANA_CHARM"              },
+        { "Wichtel in der Kugel",                       { 32542 },        false, false, "TCG_IMP_IN_A_BALL"             },
     }},
     { SENDER_FOO,  {
-        { "Goblin Gumbo Kettle",                         { 33219 },        false, false, "TCG_GOBLIN_GUMBO_KETTLE"       },
-        { "Fishing Chair",                               { 33223 },        false, false, "TCG_FISHING_CHAIR"             },
-        { "Reins of the Spectral Tiger (both variants)", { 33224, 33225 }, false, false, "TCG_SPECTRAL_TIGER"            },
+        { "Kessel mit Goblingumbo",                     { 33219 },        false, false, "TCG_GOBLIN_GUMBO_KETTLE"       },
+        { "Angelstuhl",                                 { 33223 },        false, false, "TCG_FISHING_CHAIR"             },
+        { "Zügel des Spektraltigers (beide Varianten)", { 33224, 33225 }, false, false, "TCG_SPECTRAL_TIGER"            },
     }},
     { SENDER_MOTL, {
-        { "Paper Flying Machine Kit",                    { 34499 },        false, false, "TCG_PAPER_FLYING_MACHINE"      },
-        { "Rocket Chicken",                              { 34492 },        false, false, "TCG_ROCKET_CHICKEN"            },
-        { "Dragon Kite",                                 { 34493 },        false, false, "TCG_DRAGON_KITE"               },
+        { "Papierflugmaschinenset",                     { 34499 },        false, false, "TCG_PAPER_FLYING_MACHINE"      },
+        { "Raketenhühnchen",                            { 34492 },        false, false, "TCG_ROCKET_CHICKEN"            },
+        { "Papierdrachen",                              { 34493 },        false, false, "TCG_DRAGON_KITE"               },
     }},
     { SENDER_SOTB, {
-        { "X-51 Nether-Rocket (both variants)",          { 35225, 35226 }, false, false, "TCG_X51_NETHER_ROCKET"         },
-        { "Papa Hummel's Old-Fashioned Pet Biscuit",    { 35223 },        false, true,  "TCG_PET_BISCUIT"               },
-        { "Goblin Weather Machine - Prototype 01-B",     { 35227 },        false, false, "TCG_GOBLIN_WEATHER_MACHINE"    },
+        { "X-51 Netherrakete (beide Varianten)",        { 35225, 35226 }, false, false, "TCG_X51_NETHER_ROCKET"         },
+        { "Papa Hummels traditionelles Leckerli",       { 35223 },        false, true,  "TCG_PET_BISCUIT"               },
+        { "Wunschwettermaschine - Prototyp 01-B",       { 35227 },        false, false, "TCG_GOBLIN_WEATHER_MACHINE"    },
     }},
     { SENDER_HFI,  {
-        { "Path of Illidan",                             { 38233 },        false, true,  "TCG_PATH_OF_ILLIDAN"           },
-        { "D.I.S.C.O.",                                  { 38301 },        false, false, "TCG_DISCO"                     },
-        { "Soul-Trader Beacon",                          { 38050 },        false, false, "TCG_SOUL_TRADER_BEACON"        },  // permanent companion
+        { "Illidans Pfad",                              { 38233 },        false, true,  "TCG_PATH_OF_ILLIDAN"           },
+        { "D.I.S.C.O.",                                 { 38301 },        false, false, "TCG_DISCO"                     },
+        { "Leuchtsignal des Seelenhändlers",            { 38050 },        false, false, "TCG_SOUL_TRADER_BEACON"        },  // permanent companion
     }},
     { SENDER_DOW,  {
-        { "Party G.R.E.N.A.D.E.",                        { 38577 },        false, true,  "TCG_PARTY_GRENADE"             },
-        { "The Flag of Ownership",                       { 38578 },        false, false, "TCG_FLAG_OF_OWNERSHIP"         },
-        { "Big Battle Bear",                             { 38576 },        false, false, "TCG_BIG_BATTLE_BEAR"           },
+        { "Party-\"G.R.A.N.A.T.E.\"",                   { 38577 },        false, true,  "TCG_PARTY_GRENADE"             },
+        { "Die Siegesflagge",                           { 38578 },        false, false, "TCG_FLAG_OF_OWNERSHIP"         },
+        { "Großer Kriegsbär",                           { 38576 },        false, false, "TCG_BIG_BATTLE_BEAR"           },
     }},
     { SENDER_BOG,  {
-        { "Sandbox Tiger",                               { 45047 },        false, true,  "TCG_SANDBOX_TIGER"             },
-        { "Epic Purple Shirt",                           { 45037 },        false, false, "TCG_EPIC_PURPLE_SHIRT"         },
-        { "Foam Sword Rack",                             { 45063 },        false, false, "TCG_FOAM_SWORD_RACK"           },
+        { "Sandkastentiger",                            { 45047 },        false, true,  "TCG_SANDBOX_TIGER"             },
+        { "Episches violettes Hemd",                    { 45037 },        false, false, "TCG_EPIC_PURPLE_SHIRT"         },
+        { "Schaumstoffschwertständer",                  { 45063 },        false, false, "TCG_FOAM_SWORD_RACK"           },
     }},
     { SENDER_FOH,  {
-        { "Path of Cenarius",                            { 46779 },        false, true,  "TCG_PATH_OF_CENARIUS"          },
-        { "Ogre Pinata",                                 { 46780 },        false, false, "TCG_OGRE_PINATA"               },
-        { "Magic Rooster Egg",                           { 46778 },        false, false, "TCG_MAGIC_ROOSTER_EGG"         },
+        { "Pfad des Cenarius",                          { 46779 },        false, true,  "TCG_PATH_OF_CENARIUS"          },
+        { "Ogerpinata",                                 { 46780 },        false, false, "TCG_OGRE_PINATA"               },
+        { "Magisches Hühnerei",                         { 46778 },        false, false, "TCG_MAGIC_ROOSTER_EGG"         },
     }},
     { SENDER_SW,   {
-        { "Scourgewar Mini-Mount",                       { 49288, 49289 }, true,  true,  "TCG_SCOURGEWAR_MINIMOUNT"      },
-        { "Tuskarr Kite",                                { 49287 },        false, false, "TCG_TUSKARR_KITE"              },
-        { "Spectral Tiger Cub",                          { 49343 },        false, false, "TCG_SPECTRAL_TIGER_CUB"        },
+        { "Scourgewar-Minireittier",                    { 49288, 49289 }, true,  true,  "TCG_SCOURGEWAR_MINIMOUNT"      },
+        { "Tuskarrdrachen",                             { 49287 },        false, false, "TCG_TUSKARR_KITE"              },
+        { "Spektraltigerjunges",                        { 49343 },        false, false, "TCG_SPECTRAL_TIGER_CUB"        },
     }},
     { SENDER_WG,   {
-        { "Landro's Gift Box",                          { 54218 },        false, false, "TCG_LANDROS_GIFT_BOX"          },
-        { "Instant Statue Pedestal",                     { 54212 },        false, false, "TCG_INSTANT_STATUE_PEDESTAL"   },
-        { "Blazing Hippogryph",                          { 54069 },        false, false, "TCG_BLAZING_HIPPOGRYPH"        },
+        { "Landros Geschenkkiste",                      { 54218 },        false, false, "TCG_LANDROS_GIFT_BOX"          },
+        { "Aufstellbares Statuenpodest",                { 54212 },        false, false, "TCG_INSTANT_STATUE_PEDESTAL"   },
+        { "Flammender Hippogryph",                      { 54069 },        false, false, "TCG_BLAZING_HIPPOGRYPH"        },
     }},
     { SENDER_IC,   {
-        { "Paint Bomb",                                  { 54455 },        false, true,  "TCG_PAINT_BOMB"                },
-        { "Ethereal Portal",                             { 54452 },        false, false, "TCG_ETHEREAL_PORTAL"           },
-        { "Wooly White Rhino",                           { 54068 },        false, false, "TCG_WOOLY_WHITE_RHINO"         },
+        { "Farbbombe",                                  { 54455 },        false, true,  "TCG_PAINT_BOMB"                },
+        { "Durchscheinendes Portal",                    { 54452 },        false, false, "TCG_ETHEREAL_PORTAL"           },
+        { "Weißes Wollrhinozeros",                      { 54068 },        false, false, "TCG_WOOLY_WHITE_RHINO"         },
     }},
     { SENDER_PR,   {
-        { "Tabard of Frost",                             { 23709 },        false, false, "TCG_TABARD_OF_FROST"           },
-        { "Perpetual Purple Firework",                   { 23714 },        false, false, "TCG_PERPETUAL_PURPLE_FIREWORK" },
-        { "Carved Ogre Idol",                            { 23716 },        false, false, "TCG_CARVED_OGRE_IDOL"          },
-        { "Tabard of the Arcane",                        { 38310 },        false, false, "TCG_TABARD_OF_THE_ARCANE"      },
-        { "Tabard of Brilliance",                        { 38312 },        false, false, "TCG_TABARD_OF_BRILLIANCE"      },
-        { "Tabard of the Defender",                      { 38314 },        false, false, "TCG_TABARD_OF_THE_DEFENDER"    },
-        { "Tabard of Fury",                              { 38313 },        false, false, "TCG_TABARD_OF_FURY"            },
-        { "Tabard of Nature",                            { 38309 },        false, false, "TCG_TABARD_OF_NATURE"          },
-        { "Tabard of the Void",                          { 38311 },        false, false, "TCG_TABARD_OF_THE_VOID"        },
-        { "Landro's Pet Box",                           { 50301 },        false, false, "TCG_LANDROS_PET_BOX"           },
+        { "Wappenrock des Frosts",                      { 23709 },        false, false, "TCG_TABARD_OF_FROST"           },
+        { "Unerschöpfliches lila Feuerwerk",            { 23714 },        false, false, "TCG_PERPETUAL_PURPLE_FIREWORK" },
+        { "Geschnitzter Ogergötze",                     { 23716 },        false, false, "TCG_CARVED_OGRE_IDOL"          },
+        { "Wappenrock des Arkanen",                     { 38310 },        false, false, "TCG_TABARD_OF_THE_ARCANE"      },
+        { "Wappenrock der Brillanz",                    { 38312 },        false, false, "TCG_TABARD_OF_BRILLIANCE"      },
+        { "Wappenrock des Verteidigers",                { 38314 },        false, false, "TCG_TABARD_OF_THE_DEFENDER"    },
+        { "Wappenrock des Furors",                      { 38313 },        false, false, "TCG_TABARD_OF_FURY"            },
+        { "Wappenrock der Natur",                       { 38309 },        false, false, "TCG_TABARD_OF_NATURE"          },
+        { "Wappenrock der Leere",                       { 38311 },        false, false, "TCG_TABARD_OF_THE_VOID"        },
+        { "Landros Haustiertransporter",                { 50301 },        false, false, "TCG_LANDROS_PET_BOX"           },
     }},
 };
 
@@ -362,15 +362,15 @@ static const std::map<uint32, std::string> EXPANSION_NAMES =
 // ============================================================
 static const std::vector<TCGItem> TYRAELS_CATALOG =
 {
-    { "Tyrael's Hilt", { 39656 }, false, false, "WWI_TYRAELS_HILT" },
+    { "Tyraels Schwertgriff", { 39656 }, false, false, "WWI_TYRAELS_HILT" },
 };
 
 static const std::map<uint32, std::string> PROMO_CATEGORY_NAMES =
 {
-    { SENDER_PROMO_MURLOC,  "Murloc Companions"             },
-    { SENDER_PROMO_CLASSIC, "Classic & Special Promotions"  },
-    { SENDER_PROMO_STORE,   "Blizzard Store"                },
-    { SENDER_PROMO_EVENTS,  "Special Events & Tournaments"  },
+    { SENDER_PROMO_MURLOC,  "Murloc Companions"            },
+    { SENDER_PROMO_CLASSIC, "Classic & Special Promotions" },
+    { SENDER_PROMO_STORE,   "Blizzard Store"               },
+    { SENDER_PROMO_EVENTS,  "Special Events & Tournaments" },
 };
 
 // ============================================================
@@ -378,9 +378,9 @@ static const std::map<uint32, std::string> PROMO_CATEGORY_NAMES =
 // ============================================================
 static const std::vector<TCGItem> BLIZZCON_CATALOG =
 {
-    { "Murky (Blue Murloc Egg)", { 20371 }, false, false, "BLIZZCON_MURKY"             },
-    { "Murloc Costume",          { 33079 }, false, false, "BLIZZCON_MURLOC_COSTUME"    },
-    { "Big Blizzard Bear",       { 43599 }, false, false, "BLIZZCON_BIG_BLIZZARD_BEAR" },
+    { "Murky (Blaues Murlocei)", { 20371 }, false, false, "BLIZZCON_MURKY"             },
+    { "Murlockostüm",            { 33079 }, false, false, "BLIZZCON_MURLOC_COSTUME"    },
+    { "Großer Blizzardbär",      { 43599 }, false, false, "BLIZZCON_BIG_BLIZZARD_BEAR" },
 };
 
 // ============================================================
@@ -389,34 +389,34 @@ static const std::vector<TCGItem> BLIZZCON_CATALOG =
 static const std::map<uint32, std::vector<TCGItem>> PROMO_CATALOG =
 {
     { SENDER_PROMO_MURLOC,  {
-        { "Gurky (Pink Murloc Egg)",   { 22114 }, false, false, "PROMO_GURKY"              },
-        { "Orange Murloc Egg",         { 20651 }, false, false, "PROMO_ORANGE_MURLOC_EGG"  },
-        { "White Murloc Egg",          { 22780 }, false, false, "PROMO_WHITE_MURLOC_EGG"   },
-        { "Heavy Murloc Egg",          { 46802 }, false, false, "PROMO_HEAVY_MURLOC_EGG"   },
-        { "Murkimus' Little Spear",    { 45180 }, false, false, "PROMO_MURKIMUS_SPEAR"     },
+        { "Gurky (Rosa Murlocei)",          { 22114 }, false, false, "PROMO_GURKY"                               },
+        { "Orangefarbenes Murlocei",        { 20651 }, false, false, "PROMO_ORANGE_MURLOC_EGG"                   },
+        { "Weißes Murlocei",                { 22780 }, false, false, "PROMO_WHITE_MURLOC_EGG"                    },
+        { "Schweres Murlocei",              { 46802 }, false, false, "PROMO_HEAVY_MURLOC_EGG"                    },
+        { "Murkimus' kleiner Speer",        { 45180 }, false, false, "PROMO_MURKIMUS_SPEAR"                      },
     }},
     { SENDER_PROMO_CLASSIC, {
-        { "Zergling Leash",            { 13582 }, false, false, "PROMO_ZERGLING_LEASH"     },
-        { "Panda Collar",              { 13583 }, false, false, "PROMO_PANDA_COLLAR"       },
-        { "Diablo Stone",              { 13584 }, false, false, "PROMO_DIABLO_STONE"       },
-        { "Netherwhelp's Collar",      { 25535 }, false, false, "PROMO_NETHERWHELP"        },
-        { "Frosty's Collar",           { 39286 }, false, false, "PROMO_FROSTYS_COLLAR"     },
-        { "Warbot Ignition Key",        { 46767 }, false, false, "PROMO_WARBOT_KEY"         },
-        { "Red War Fuel",              { 46766 }, false, true,  "PROMO_RED_WAR_FUEL",  WARBOT_PET_SPELL },
-        { "Blue War Fuel",             { 46765 }, false, true,  "PROMO_BLUE_WAR_FUEL", WARBOT_PET_SPELL },
+        { "Zerglinglasso",                  { 13582 }, false, false, "PROMO_ZERGLING_LEASH"                      },
+        { "Pandahalsband",                  { 13583 }, false, false, "PROMO_PANDA_COLLAR"                        },
+        { "Diablostein",                    { 13584 }, false, false, "PROMO_DIABLO_STONE"                        },
+        { "Netherwelpenhalsband",           { 25535 }, false, false, "PROMO_NETHERWHELP"                         },
+        { "Frostis Halsband",               { 39286 }, false, false, "PROMO_FROSTYS_COLLAR"                      },
+        { "Zündschlüssel für den Kampfbot", { 46767 }, false, false, "PROMO_WARBOT_KEY"                          },
+        { "Roter Kampfkraftstoff",          { 46766 }, false, true,  "PROMO_RED_WAR_FUEL",      WARBOT_PET_SPELL },
+        { "Blauer Kriegstreibstoff",        { 46765 }, false, true,  "PROMO_BLUE_WAR_FUEL",     WARBOT_PET_SPELL },
     }},
     { SENDER_PROMO_STORE,   {
-        { "Enchanted Onyx",            { 48527 }, false, false, "PROMO_ENCHANTED_ONYX"     },
-        { "Core Hound Pup",            { 49646 }, false, false, "PROMO_CORE_HOUND_PUP"     },
-        { "Gryphon Hatchling",         { 49662 }, false, false, "PROMO_GRYPHON_HATCHLING"  },
-        { "Wind Rider Cub",            { 49663 }, false, false, "PROMO_WIND_RIDER_CUB"     },
-        { "Pandaren Monk",             { 49665 }, false, false, "PROMO_PANDAREN_MONK"      },
+        { "Verzauberter Onyx",              { 48527 }, false, false, "PROMO_ENCHANTED_ONYX"                      },
+        { "Kernhundwelpe",                  { 49646 }, false, false, "PROMO_CORE_HOUND_PUP"                      },
+        { "Greifenküken",                   { 49662 }, false, false, "PROMO_GRYPHON_HATCHLING"                   },
+        { "Windreiterjunges",               { 49663 }, false, false, "PROMO_WIND_RIDER_CUB"                      },
+        { "Pandarenmönch",                  { 49665 }, false, false, "PROMO_PANDAREN_MONK"                       },
     }},
     { SENDER_PROMO_EVENTS,  {
-        { "Lil' Phylactery",           { 49693 }, false, false, "PROMO_LIL_PHYLACTERY"     },
-        { "Lil' XT",                   { 54847 }, false, false, "PROMO_LIL_XT"             },
-        { "Mini Thor",                 { 56806 }, false, false, "PROMO_MINI_THOR"           },
-        { "Onyxian Whelpling",         { 49362 }, false, false, "PROMO_ONYXIAN_WHELPLING"  },
+        { "Kleines Phylakterium",           { 49693 }, false, false, "PROMO_LIL_PHYLACTERY"                      },
+        { "XT der Kleine",                  { 54847 }, false, false, "PROMO_LIL_XT"                              },
+        { "Mini-Thor",                      { 56806 }, false, false, "PROMO_MINI_THOR"                           },
+        { "Welpling von Onyxia",            { 49362 }, false, false, "PROMO_ONYXIAN_WHELPLING"                   },
     }},
 };
 
@@ -473,32 +473,32 @@ static std::string GetVendorForItem(uint32 itemId)
         for (auto const& tcgItem : items)
             for (uint32 e : tcgItem.entries)
                 if (e == itemId)
-                    return "Landro Longshot in Booty Bay";
+                    return "Landro Fernblick in Beutebucht";
 
     // Blizzcon promotional items — Ransin Donner (Alliance) / Zas'Tysh (Horde)
     for (auto const& tcgItem : BLIZZCON_CATALOG)
         for (uint32 e : tcgItem.entries)
             if (e == itemId)
-                return "Ransin Donner in Ironforge (Alliance) or Zas'Tysh in Orgrimmar (Horde)";
+                return "Ransin Donner in Eisenschmiede (Allianz) oder Zas'Tysh in Orgrimmar (Horde)";
 
     // Additional promotional items — Garel Redrock (Alliance) / Tharl Stonebleeder (Horde)
     for (auto const& [sender, items] : PROMO_CATALOG)
         for (auto const& tcgItem : items)
             for (uint32 e : tcgItem.entries)
                 if (e == itemId)
-                    return "Garel Redrock in Ironforge (Alliance) or Tharl Stonebleeder in Orgrimmar (Horde)";
+                    return "Garel Rotfels in Eisenschmiede (Allianz) oder Tharl Steinblut in Orgrimmar (Horde)";
 
     // WorldWide Invitational — Ian Drake (Alliance) / Edward Cairn (Horde)
     for (auto const& tcgItem : TYRAELS_CATALOG)
         for (uint32 e : tcgItem.entries)
             if (e == itemId)
-                return "Ian Drake in Stormwind (Alliance) or Edward Cairn in Undercity (Horde)";
+                return "Ian Drake in Sturmwind (Allianz) oder Edward Cairn in Unterstadt (Horde)";
 
     // Fallback — should not be reached for any configured item
     LOG_WARN("module",
         "mod-tcg-vendors: GetVendorForItem: item {} not found in any catalog. "
         "Check TCGVendors.BossDrop.ItemIds.", itemId);
-    return "the TCG vendor NPC";
+    return "den zuständigen TCG-Händler";
 }
 
 // Helper: Get item name from item ID (fallback to numeric ID string if not found)
@@ -516,11 +516,11 @@ static std::string BuildStationeryText(const std::string& bossName,
                                        uint32             itemId)
 {
     std::string vendor = GetVendorForItem(itemId);
-    return "Congratulations! You have defeated " + bossName + ".\n\n"
-           "Enclosed is a code redeemable for: " + itemName + ".\n\n"
+    return "Glückwunsch! Ihr habt " + bossName + " bezwungen.\n\n"
+           "Beiliegend findet Ihr einen Code, einlösbar für: " + itemName + ".\n\n"
            "Code:\n" + code + "\n\n"
-           "To redeem this code, visit " + vendor + " and speak with the TCG vendor NPC.\n\n"
-           "This code is single-use. Thank you for playing!";
+           "Um diesen Code einzulösen, sucht " + vendor + " auf und sprecht ihn an.\n\n"
+           "Dieser Code kann nur einmal verwendet werden. Danke fürs Spielen!";
 }
 
 // Helper: Create a stationery item (9311) with text properly set for
@@ -692,10 +692,10 @@ static void MailItemsToPlayer(Player* player, Creature* creature,
         item->SaveToDB(trans);
 
         MailDraft(
-            "Your Reward: " + displayName,
-            "Your bags were full when you redeemed your item at " +
-            std::string(creature->GetName()) + ", so it was mailed to you instead.\n\n"
-            "Here you go!  Have a nice day!")
+            "Eure Belohnung: " + displayName,
+            "Eure Taschen waren voll, als Ihr Euren Gegenstand bei " +
+            std::string(creature->GetName()) + " eingelöst habt, daher wurde er Euch per Post geschickt.\n\n"
+            "Hier, bitte sehr! Einen schönen Tag noch!")
             .AddItem(item)
             .SendMailTo(trans,
                 MailReceiver(player, player->GetGUID().GetCounter()),
@@ -726,7 +726,7 @@ static DeliveryResult TryDeliverItem(Player*                    player,
     if (!consumable && HasRedeemed(player->GetGUID().GetCounter(), redemptionKey))
     {
         creature->Whisper(
-            "Your character has already received \"" + displayName + "\".",
+            "Euer Charakter hat \"" + displayName + "\" bereits erhalten.",
             LANG_UNIVERSAL, player);
         return DELIVERY_FAILED;
     }
@@ -751,8 +751,8 @@ static DeliveryResult TryDeliverItem(Player*                    player,
             MarkRedeemed(player->GetGUID().GetCounter(), redemptionKey);
 
         creature->Whisper(
-            "Your bags are full! \"" + displayName + "\" has been mailed to you. "
-            "Visit any mailbox to collect it.",
+            "Eure Taschen sind voll! \"" + displayName + "\" wurde Euch per Post geschickt. "
+            "Holt ihn an einem beliebigen Briefkasten ab.",
             LANG_UNIVERSAL, player);
         return DELIVERY_MAIL;
     }
@@ -812,9 +812,9 @@ static void HandleCodeRedemption(Player*            player,
     if (!IsValidCodeFormat(code))
     {
         creature->Whisper(
-            "That doesn't look like a valid code. "
-            "Codes follow the format XXXX-XXXX-XXXX-XXXX. "
-            "Please check your code and try again.",
+            "Das sieht nicht nach einem gültigen Code aus. "
+            "Codes haben das Format XXXX-XXXX-XXXX-XXXX. "
+            "Bitte überprüft Euren Code und versucht es erneut.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -832,8 +832,8 @@ static void HandleCodeRedemption(Player*            player,
     if (!result)
     {
         creature->Whisper(
-            "That code was not recognised. "
-            "Please double-check the code and try again.",
+            "Dieser Code wurde nicht erkannt. "
+            "Bitte überprüft den Code genau und versucht es erneut.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -846,7 +846,7 @@ static void HandleCodeRedemption(Player*            player,
     if (redeemed)
     {
         creature->Whisper(
-            "That code has already been redeemed. Each code may only be used once.",
+            "Dieser Code wurde bereits eingelöst. Jeder Code kann nur einmal verwendet werden.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -856,8 +856,8 @@ static void HandleCodeRedemption(Player*            player,
     if (groupIt == REWARD_GROUPS.end())
     {
         creature->Whisper(
-            "Your code is valid but references an unknown reward. "
-            "Please contact a Game Master for assistance.",
+            "Euer Code ist gültig, verweist aber auf eine unbekannte Belohnung. "
+            "Bitte wendet Euch an einen Game Master.",
             LANG_UNIVERSAL, player);
         LOG_ERROR("module",
             "mod-tcg-vendors: Code '{}' references unknown reward_group '{}'. "
@@ -893,7 +893,7 @@ static void HandleCodeRedemption(Player*            player,
     if (deliveryResult == DELIVERY_BAGS)
     {
         creature->Whisper(
-            "Code accepted! \"" + group.displayName + "\" has been added to your inventory. Enjoy!",
+            "Code akzeptiert! \"" + group.displayName + "\" wurde Eurem Inventar hinzugefügt. Viel Spaß!",
             LANG_UNIVERSAL, player);
     }
 }
@@ -913,9 +913,9 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (!IsValidCodeFormat(code))
     {
         creature->Whisper(
-            "That doesn't look like a valid code. "
-            "Codes follow the format XXXX-XXXX-XXXX-XXXX. "
-            "Please check your code and try again.",
+            "Das sieht nicht nach einem gültigen Code aus. "
+            "Codes haben das Format XXXX-XXXX-XXXX-XXXX. "
+            "Bitte überprüft Euren Code und versucht es erneut.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -933,8 +933,8 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (!codeResult)
     {
         creature->Whisper(
-            "That code was not recognised. "
-            "Please double-check the code and try again.",
+            "Dieser Code wurde nicht erkannt. "
+            "Bitte überprüft den Code genau und versucht es erneut.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -947,7 +947,7 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (redeemed)
     {
         creature->Whisper(
-            "That code has already been redeemed. Each code may only be used once.",
+            "Dieser Code wurde bereits eingelöst. Jeder Code kann nur einmal verwendet werden.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -956,8 +956,8 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (rewardGroup != expectedGroupKey)
     {
         creature->Whisper(
-            "That code is not valid for \"" + itemDisplayName + "\". "
-            "Please check that you are entering the correct code for this item.",
+            "Dieser Code ist nicht für \"" + itemDisplayName + "\" gültig. "
+            "Bitte prüft, ob Ihr den richtigen Code für diesen Gegenstand eingebt.",
             LANG_UNIVERSAL, player);
         return;
     }
@@ -967,8 +967,8 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (groupIt == REWARD_GROUPS.end())
     {
         creature->Whisper(
-            "Your code references an unknown reward. "
-            "Please contact a Game Master for assistance.",
+            "Euer Code verweist auf eine unbekannte Belohnung. "
+            "Bitte wendet Euch an einen Game Master.",
             LANG_UNIVERSAL, player);
         LOG_ERROR("module",
             "mod-tcg-vendors: Code '{}' references unknown reward_group '{}'. "
@@ -998,7 +998,7 @@ static void HandleItemSpecificCodeRedemption(Player*            player,
     if (deliveryResult == DELIVERY_BAGS)
     {
         creature->Whisper(
-            "Code accepted! \"" + group.displayName + "\" has been added to your inventory. Enjoy!",
+            "Code akzeptiert! \"" + group.displayName + "\" wurde Eurem Inventar hinzugefügt. Viel Spaß!",
             LANG_UNIVERSAL, player);
     }
 }
@@ -1015,10 +1015,10 @@ static std::string BuildItemLabel(const std::string& name,
                                   uint32             playerGuid)
 {
     if (consumable)
-        return name + " [Unlimited]";
+        return name + " [Unbegrenzt]";
 
     if (HasRedeemed(playerGuid, redemptionKey))
-        return name + " [Already Redeemed]";
+        return name + " [Bereits eingelöst]";
 
     return name;
 }
@@ -1029,7 +1029,7 @@ static void ShowExpansionList(Player* player, Creature* creature, uint32 npcText
     ClearGossipMenuFor(player);
     for (auto const& [senderVal, name] : EXPANSION_NAMES)
         AddGossipItemFor(player, GOSSIP_ICON_CHAT, name, SENDER_MAIN, senderVal);
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back", SENDER_MAIN, 0);
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück", SENDER_MAIN, 0);
     SendGossipMenuFor(player, npcTextId, creature->GetGUID());
 }
 
@@ -1062,7 +1062,7 @@ static void ShowExpansionItems(Player* player, Creature* creature,
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
                 "[GM] " + items[i].displayName,
                 sender, i + 1,
-                "Enter character name to deliver \"" + items[i].displayName + "\" to:",
+                "Gegenstand \"" + items[i].displayName + "\" aushändigen an Charakter:",
                 0, true);
         }
         else
@@ -1078,20 +1078,20 @@ static void ShowExpansionItems(Player* player, Creature* creature,
             {
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                     sender, i + 1,
-                    "Enter your redemption code for \"" + items[i].displayName + "\":",
+                    "Euren Einlösecode für \"" + items[i].displayName + "\" eingeben:",
                     0, true);
             }
             else
             {
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                     sender, i + 1,
-                    "Receive \"" + items[i].displayName + "\"?",
+                    "\"" + items[i].displayName + "\" erhalten?",
                     0, false);
             }
         }
     }
 
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back to set list", SENDER_MAIN, 0);
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück zur Set-Liste", SENDER_MAIN, 0);
     SendGossipMenuFor(player, npcTextId, creature->GetGUID());
 }
 
@@ -1118,7 +1118,7 @@ static bool HandleBrowseSelect(Player* player, Creature* creature,
                                            item.displayName);
 
     if (result == DELIVERY_BAGS)
-        creature->Whisper("Item granted. Enjoy!", LANG_UNIVERSAL, player);
+        creature->Whisper("Gegenstand ausgehändigt. Viel Spaß!", LANG_UNIVERSAL, player);
     return true;
 }
 
@@ -1140,7 +1140,7 @@ static bool HandleGMDelivery(Player*                    gm,
 {
     if (targetName.empty())
     {
-        creature->Whisper("Please enter a character name.", LANG_UNIVERSAL, gm);
+        creature->Whisper("Bitte gebt einen Charakternamen ein.", LANG_UNIVERSAL, gm);
         return true;
     }
 
@@ -1165,8 +1165,8 @@ static bool HandleGMDelivery(Player*                    gm,
         if (!charResult)
         {
             creature->Whisper(
-                "Character \"" + targetName + "\" was not found. "
-                "Check the spelling and try again.",
+                "Charakter \"" + targetName + "\" wurde nicht gefunden. "
+                "Prüft die Schreibweise und versucht es erneut.",
                 LANG_UNIVERSAL, gm);
             return true;
         }
@@ -1210,9 +1210,9 @@ static bool HandleGMDelivery(Player*                    gm,
         }
         item->SaveToDB(trans);
         MailDraft(
-            "Item Delivery: " + displayName,
-            "A Game Master has delivered \"" + displayName + "\" to your character.\n"
-            "Visit any mailbox to collect it.")
+            "Gegenstandslieferung: " + displayName,
+            "Ein Game Master hat \"" + displayName + "\" an Euren Charakter geschickt.\n"
+            "Holt ihn an einem beliebigen Briefkasten ab.")
             .AddItem(item)
             .SendMailTo(trans,
                 targetPlayer ? MailReceiver(targetPlayer, targetGuid)
@@ -1226,7 +1226,7 @@ static bool HandleGMDelivery(Player*                    gm,
         MarkRedeemed(targetGuid, toGive[0]);
 
     creature->Whisper(
-        "[GM] \"" + displayName + "\" has been mailed to \"" + targetName + "\".",
+        "[GM] \"" + displayName + "\" wurde an \"" + targetName + "\" verschickt.",
         LANG_UNIVERSAL, gm);
     return true;
 }
@@ -1237,7 +1237,7 @@ static void HandleGMClearFlags(Player*            gm,
 {
     if (targetName.empty())
     {
-        creature->Whisper("Please enter a character name.", LANG_UNIVERSAL, gm);
+        creature->Whisper("Bitte gebt einen Charakternamen ein.", LANG_UNIVERSAL, gm);
         return;
     }
 
@@ -1250,8 +1250,8 @@ static void HandleGMClearFlags(Player*            gm,
     if (!charResult)
     {
         creature->Whisper(
-            "Character \"" + targetName + "\" was not found. "
-            "Check the spelling and try again.",
+            "Charakter \"" + targetName + "\" wurde nicht gefunden. "
+            "Prüft die Schreibweise und versucht es erneut.",
             LANG_UNIVERSAL, gm);
         return;
     }
@@ -1270,15 +1270,15 @@ static void HandleGMClearFlags(Player*            gm,
     if (count == 0)
     {
         creature->Whisper(
-            "[GM] \"" + targetName + "\" had no TCG redemption records to clear.",
+            "[GM] Für \"" + targetName + "\" gab es keine TCG-Einlöseeinträge zum Zurücksetzen.",
             LANG_UNIVERSAL, gm);
     }
     else
     {
         creature->Whisper(
-            "[GM] Cleared " + std::to_string(count) +
-            " redemption record(s) for \"" + targetName + "\". "
-            "They may now re-receive those items.",
+            "[GM] " + std::to_string(count) +
+            " Einlöseeinträge für \"" + targetName + "\" zurückgesetzt. "
+            "Die Gegenstände können nun erneut empfangen werden.",
             LANG_UNIVERSAL, gm);
     }
 }
@@ -1301,17 +1301,17 @@ static std::string BuildGMCodeText(const std::string& targetName,
                                     uint32             itemId)
 {
     std::string vendor = GetVendorForItem(itemId);
-    return "Greetings, " + targetName + "!\n\n"
-           "A Game Master has arranged a special gift for you!\n\n"
-           "You have been awarded a redemption code for:\n"
+    return "Seid gegrüßt, " + targetName + "!\n\n"
+           "Ein Game Master hat ein besonderes Geschenk für Euch hinterlegt!\n\n"
+           "Euch wurde ein Einlösecode zugesprochen für:\n"
            + itemName + "\n\n"
-           "Your code:\n"
+           "Euer Code:\n"
            + code + "\n\n"
-           "To claim your reward, visit " + vendor + " and enter this code "
-           "when prompted.\n\n"
-           "This code is single-use and will be bound to your account upon "
-           "redemption.  Keep it safe!\n\n"
-           "Good luck on your adventures in Azeroth!";
+           "Um Eure Belohnung abzuholen, sucht " + vendor + " auf und gebt diesen Code "
+           "ein, sobald Ihr danach gefragt werdet.\n\n"
+           "Dieser Code kann nur einmal verwendet werden und wird beim Einlösen "
+           "an Euren Account gebunden. Bewahrt ihn gut auf!\n\n"
+           "Viel Erfolg bei Euren Abenteuern in Azeroth!";
 }
 
 static void HandleGMSendCode(Player*            gm,
@@ -1323,14 +1323,14 @@ static void HandleGMSendCode(Player*            gm,
 {
     if (targetName.empty())
     {
-        creature->Whisper("Please enter a character name.", LANG_UNIVERSAL, gm);
+        creature->Whisper("Bitte gebt einen Charakternamen ein.", LANG_UNIVERSAL, gm);
         return;
     }
 
     if (REWARD_GROUPS.find(rewardGroupKey) == REWARD_GROUPS.end())
     {
         creature->Whisper(
-            "[GM] Unknown reward group for this item — cannot generate a code.",
+            "[GM] Unbekannte Belohnungsgruppe für diesen Gegenstand — es kann kein Code erzeugt werden.",
             LANG_UNIVERSAL, gm);
         LOG_ERROR("module",
             "mod-tcg-vendors: HandleGMSendCode: unknown reward group '{}'.",
@@ -1354,8 +1354,8 @@ static void HandleGMSendCode(Player*            gm,
         if (!charResult)
         {
             creature->Whisper(
-                "Character \"" + targetName + "\" was not found. "
-                "Check the spelling and try again.",
+                "Charakter \"" + targetName + "\" wurde nicht gefunden. "
+                "Prüft die Schreibweise und versucht es erneut.",
                 LANG_UNIVERSAL, gm);
             return;
         }
@@ -1369,7 +1369,7 @@ static void HandleGMSendCode(Player*            gm,
     Item*       scroll = CreateStationeryWithText(targetPlayer, text);
     if (!scroll)
     {
-        creature->Whisper("[GM] Failed to create stationery item.", LANG_UNIVERSAL, gm);
+        creature->Whisper("[GM] Schreibwaren konnten nicht erstellt werden.", LANG_UNIVERSAL, gm);
         return;
     }
 
@@ -1377,7 +1377,7 @@ static void HandleGMSendCode(Player*            gm,
 
     CharacterDatabaseTransaction trans = CharacterDatabase.BeginTransaction();
     scroll->SaveToDB(trans);
-    MailDraft("A special reward awaits you!", "")
+    MailDraft("Eine besondere Belohnung erwartet Euch!", "")
         .AddItem(scroll)
         .SendMailTo(trans,
             targetPlayer ? MailReceiver(targetPlayer, targetGuid)
@@ -1388,7 +1388,7 @@ static void HandleGMSendCode(Player*            gm,
     DirectWriteItemText(scrollGuid, text);
 
     creature->Whisper(
-        "[GM] A code for \"" + displayName + "\" has been mailed to \"" +
+        "[GM] Ein Code für \"" + displayName + "\" wurde verschickt an \"" +
         targetName + "\".",
         LANG_UNIVERSAL, gm);
 }
@@ -1398,7 +1398,7 @@ static void ShowExpansionListForCode(Player* player, Creature* creature, uint32 
     ClearGossipMenuFor(player);
     for (auto const& [senderVal, name] : EXPANSION_NAMES)
         AddGossipItemFor(player, GOSSIP_ICON_CHAT, name, SENDER_GM_SEND_CODE, senderVal);
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back", SENDER_MAIN, 0);
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück", SENDER_MAIN, 0);
     SendGossipMenuFor(player, npcTextId, creature->GetGUID());
 }
 
@@ -1417,13 +1417,13 @@ static void ShowExpansionItemsForCode(Player* player, Creature* creature,
     {
         uint32 encoded = (sender << 8) | (i + 1);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER,
-            "[GM] Send code: " + items[i].displayName,
+            "[GM] Code schicken: " + items[i].displayName,
             SENDER_GM_SEND_CODE, encoded,
-            "Enter character name to send a code for \"" +
-            items[i].displayName + "\" to:",
+            "Code für \"" +
+            items[i].displayName + "\" schicken an Charakter:",
             0, true);
     }
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back to set list",
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück zur Set-Liste",
         SENDER_GM_SEND_CODE, 0);
     SendGossipMenuFor(player, npcTextId, creature->GetGUID());
 }
@@ -1433,7 +1433,7 @@ static void ShowPromoCategoryListForCode(Player* player, Creature* creature)
     ClearGossipMenuFor(player);
     for (auto const& [senderVal, name] : PROMO_CATEGORY_NAMES)
         AddGossipItemFor(player, GOSSIP_ICON_CHAT, name, SENDER_GM_SEND_CODE, senderVal);
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back", SENDER_MAIN, 0);
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück", SENDER_MAIN, 0);
     SendGossipMenuFor(player, NPC_TEXT_PROMO, creature->GetGUID());
 }
 
@@ -1451,13 +1451,13 @@ static void ShowPromoItemsForCode(Player* player, Creature* creature, uint32 sen
     {
         uint32 encoded = (sender << 8) | (i + 1);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER,
-            "[GM] Send code: " + items[i].displayName,
+            "[GM] Code schicken: " + items[i].displayName,
             SENDER_GM_SEND_CODE, encoded,
-            "Enter character name to send a code for \"" +
-            items[i].displayName + "\" to:",
+            "Code für \"" +
+            items[i].displayName + "\" schicken an Charakter:",
             0, true);
     }
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back",
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück",
         SENDER_GM_SEND_CODE, 0);
     SendGossipMenuFor(player, NPC_TEXT_PROMO, creature->GetGUID());
 }
@@ -1477,15 +1477,15 @@ public:
         if (player->IsGameMaster())
         {
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Browse and deliver TCG items...",
+                "[GM] TCG-Gegenstände durchstöbern und aushändigen...",
                 SENDER_MAIN, ACTION_OPEN_BROWSE);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Clear character redemption flags",
+                "[GM] Einlöse-Markierungen zurücksetzen",
                 SENDER_GM_CLEAR, 0,
-                "Enter character name to clear all TCG redemption flags:",
+                "Charaktername, dessen TCG-Einlöse-Markierungen zurückgesetzt werden sollen:",
                 0, true);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Send a code to a player...",
+                "[GM] Einem Spieler einen Code schicken...",
                 SENDER_MAIN, ACTION_OPEN_SEND_CODE);
             SendGossipMenuFor(player, NPC_TEXT_LANDRO, creature->GetGUID());
             return true;
@@ -1503,15 +1503,15 @@ public:
             // Mode 3: browse first, then enter a code per item — text
             //         input box appears when the player clicks an item.
             AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                "Browse TCG items by expansion set...",
+                "TCG-Gegenstände nach Erweiterungsset durchstöbern...",
                 SENDER_MAIN, ACTION_OPEN_BROWSE);
         }
         else  // Mode 2: Blizz-Like
         {
             AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                "I have a TCG redemption code.",
+                "Ich habe einen TCG-Einlösecode.",
                 SENDER_CODE_ENTRY, 0,
-                "Please enter your redemption code:",
+                "Bitte gebt Euren Einlösecode ein:",
                 0, true);
         }
 
@@ -1610,13 +1610,13 @@ public:
                         ClearGossipMenuFor(player);
                         uint32 forceAction = (sender << 8) | action;
                         AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                            "[GM] Force delivery to \"" + codeStr + "\" anyway",
+                            "[GM] Aushändigung an \"" + codeStr + "\" trotzdem erzwingen",
                             SENDER_GM_FORCE, forceAction,
-                            "\"" + codeStr + "\" already has \"" + items[idx].displayName +
-                            "\". Enter their name again to confirm forced re-delivery:",
+                            "\"" + codeStr + "\" besitzt bereits \"" + items[idx].displayName +
+                            "\". Zur Bestätigung den Namen erneut eingeben:",
                             0, true);
                         AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                            "< Cancel", SENDER_MAIN, 0);
+                            "< Abbrechen", SENDER_MAIN, 0);
                         SendGossipMenuFor(player, NPC_TEXT_LANDRO, creature->GetGUID());
                     }
                     else
@@ -1759,22 +1759,22 @@ public:
                 AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
                     "[GM] " + BLIZZCON_CATALOG[i].displayName,
                     GOSSIP_SENDER_MAIN, i + 1,
-                    "Enter character name to deliver \"" +
-                    BLIZZCON_CATALOG[i].displayName + "\" to:",
+                    "Gegenstand \"" +
+                    BLIZZCON_CATALOG[i].displayName + "\" aushändigen an Charakter:",
                     0, true);
             }
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Clear character redemption flags",
+                "[GM] Einlöse-Markierungen zurücksetzen",
                 SENDER_GM_CLEAR, 0,
-                "Enter character name to clear all TCG redemption flags:",
+                "Charaktername, dessen TCG-Einlöse-Markierungen zurückgesetzt werden sollen:",
                 0, true);
             for (uint32 i = 0; i < static_cast<uint32>(BLIZZCON_CATALOG.size()); ++i)
             {
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER,
-                    "[GM] Send code: " + BLIZZCON_CATALOG[i].displayName,
+                    "[GM] Code schicken: " + BLIZZCON_CATALOG[i].displayName,
                     SENDER_GM_SEND_CODE, i + 1,
-                    "Enter character name to send a code for \"" +
-                    BLIZZCON_CATALOG[i].displayName + "\" to:",
+                    "Code für \"" +
+                    BLIZZCON_CATALOG[i].displayName + "\" schicken an Charakter:",
                     0, true);
             }
             SendGossipMenuFor(player, NPC_TEXT_BLIZZCON, creature->GetGUID());
@@ -1804,13 +1804,13 @@ public:
                 else if (mode == MODE_BLIZZLIKE || mode == MODE_ITEM_CODE)
                     AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                         GOSSIP_SENDER_MAIN, i + 1,
-                        "Enter your redemption code for \"" +
-                        BLIZZCON_CATALOG[i].displayName + "\":",
+                        "Euren Einlösecode für \"" +
+                        BLIZZCON_CATALOG[i].displayName + "\" eingeben:",
                         0, true);
                 else
                     AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                         GOSSIP_SENDER_MAIN, i + 1,
-                        "Receive \"" + BLIZZCON_CATALOG[i].displayName + "\"?",
+                        "\"" + BLIZZCON_CATALOG[i].displayName + "\" erhalten?",
                         0, false);
             }
         }
@@ -1889,13 +1889,13 @@ public:
                 {
                     ClearGossipMenuFor(player);
                     AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                        "[GM] Force delivery to \"" + codeStr + "\" anyway",
+                        "[GM] Aushändigung an \"" + codeStr + "\" trotzdem erzwingen",
                         SENDER_GM_FORCE, action,
-                        "\"" + codeStr + "\" already has \"" + BLIZZCON_CATALOG[idx].displayName +
-                        "\". Enter their name again to confirm forced re-delivery:",
+                        "\"" + codeStr + "\" besitzt bereits \"" + BLIZZCON_CATALOG[idx].displayName +
+                        "\". Zur Bestätigung den Namen erneut eingeben:",
                         0, true);
                     AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                        "< Cancel", SENDER_MAIN, 0);
+                        "< Abbrechen", SENDER_MAIN, 0);
                     SendGossipMenuFor(player, NPC_TEXT_BLIZZCON, creature->GetGUID());
                 }
                 else
@@ -1988,7 +1988,7 @@ static void ShowPromoItems(Player* player, Creature* creature, uint32 sender)
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
                 "[GM] " + items[i].displayName,
                 sender, i + 1,
-                "Enter character name to deliver \"" + items[i].displayName + "\" to:",
+                "Gegenstand \"" + items[i].displayName + "\" aushändigen an Charakter:",
                 0, true);
         }
         else
@@ -2007,27 +2007,27 @@ static void ShowPromoItems(Player* player, Creature* creature, uint32 sender)
                 // companion is sufficient authorisation.
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                     sender, i + 1,
-                    "Receive \"" + items[i].displayName + "\"?",
+                    "\"" + items[i].displayName + "\" erhalten?",
                     0, false);
             }
             else if (mode == MODE_BLIZZLIKE || mode == MODE_ITEM_CODE)
             {
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                     sender, i + 1,
-                    "Enter your redemption code for \"" + items[i].displayName + "\":",
+                    "Euren Einlösecode für \"" + items[i].displayName + "\" eingeben:",
                     0, true);
             }
             else
             {
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                     sender, i + 1,
-                    "Receive \"" + items[i].displayName + "\"?",
+                    "\"" + items[i].displayName + "\" erhalten?",
                     0, false);
             }
         }
     }
 
-    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Back", SENDER_MAIN, 0);
+    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "< Zurück", SENDER_MAIN, 0);
     SendGossipMenuFor(player, NPC_TEXT_PROMO, creature->GetGUID());
 }
 
@@ -2048,15 +2048,15 @@ public:
         if (player->IsGameMaster())
         {
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Browse and deliver promotional items...",
+                "[GM] Promo-Gegenstände durchstöbern und aushändigen...",
                 SENDER_MAIN, ACTION_OPEN_BROWSE);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Send a code to a player...",
+                "[GM] Einem Spieler einen Code schicken...",
                 SENDER_MAIN, ACTION_OPEN_SEND_CODE);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Clear character redemption flags",
+                "[GM] Einlöse-Markierungen zurücksetzen",
                 SENDER_GM_CLEAR, 0,
-                "Enter character name to clear all TCG redemption flags:",
+                "Charaktername, dessen TCG-Einlöse-Markierungen zurückgesetzt werden sollen:",
                 0, true);
             SendGossipMenuFor(player, NPC_TEXT_PROMO, creature->GetGUID());
             return true;
@@ -2070,15 +2070,15 @@ public:
         if (mode == MODE_FREE || mode == MODE_ITEM_CODE)
         {
             AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                "Browse promotional items by category...",
+                "Promo-Gegenstände nach Kategorie durchstöbern...",
                 SENDER_MAIN, ACTION_OPEN_BROWSE);
         }
         else
         {
             AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                "I have a Promotional redemption code.",
+                "Ich habe einen Promo-Einlösecode.",
                 SENDER_CODE_ENTRY, 0,
-                "Please enter your redemption code:",
+                "Bitte gebt Euren Einlösecode ein:",
                 0, true);
         }
 
@@ -2171,13 +2171,13 @@ public:
                         ClearGossipMenuFor(player);
                         uint32 forceAction = (sender << 8) | action;
                         AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                            "[GM] Force delivery to \"" + codeStr + "\" anyway",
+                            "[GM] Aushändigung an \"" + codeStr + "\" trotzdem erzwingen",
                             SENDER_GM_FORCE, forceAction,
-                            "\"" + codeStr + "\" already has \"" + items[idx].displayName +
-                            "\". Enter their name again to confirm forced re-delivery:",
+                            "\"" + codeStr + "\" besitzt bereits \"" + items[idx].displayName +
+                            "\". Zur Bestätigung den Namen erneut eingeben:",
                             0, true);
                         AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                            "< Cancel", SENDER_MAIN, 0);
+                            "< Abbrechen", SENDER_MAIN, 0);
                         SendGossipMenuFor(player, NPC_TEXT_PROMO, creature->GetGUID());
                     }
                     else
@@ -2280,8 +2280,8 @@ public:
         if (item.requiredSpell != 0 && !player->HasSpell(item.requiredSpell))
         {
             creature->Whisper(
-                "You must have the Warbot companion learned before you can "
-                "collect fuel for it.",
+                "Ihr müsst zuerst den Begleiter \"Kriegsbot\" erlernt haben, bevor "
+                "Ihr Treibstoff dafür erhalten könnt.",
                 LANG_UNIVERSAL, player);
             ShowPromoItems(player, creature, sender);
             return true;
@@ -2292,7 +2292,7 @@ public:
                                                item.factionMount, item.isConsumable,
                                                item.displayName);
         if (result == DELIVERY_BAGS)
-            creature->Whisper("Item granted. Enjoy!", LANG_UNIVERSAL, player);
+            creature->Whisper("Gegenstand ausgehändigt. Viel Spaß!", LANG_UNIVERSAL, player);
 
         ShowPromoItems(player, creature, sender);
         return true;
@@ -2452,7 +2452,7 @@ public:
 
                 CharacterDatabaseTransaction trans = CharacterDatabase.BeginTransaction();
                 scroll->SaveToDB(trans);
-                MailDraft("A reward for your valor!", "")
+                MailDraft("Eine Belohnung für Euren Mut!", "")
                     .AddItem(scroll)
                     .SendMailTo(trans,
                         MailReceiver(p, p->GetGUID().GetCounter()),
@@ -2629,19 +2629,19 @@ public:
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
                 "[GM] " + TYRAELS_CATALOG[0].displayName,
                 GOSSIP_SENDER_MAIN, 1,
-                "Enter character name to deliver \"" +
-                TYRAELS_CATALOG[0].displayName + "\" to:",
+                "Gegenstand \"" +
+                TYRAELS_CATALOG[0].displayName + "\" aushändigen an Charakter:",
                 0, true);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Clear character redemption flags",
+                "[GM] Einlöse-Markierungen zurücksetzen",
                 SENDER_GM_CLEAR, 0,
-                "Enter character name to clear all TCG redemption flags:",
+                "Charaktername, dessen TCG-Einlöse-Markierungen zurückgesetzt werden sollen:",
                 0, true);
             AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                "[GM] Send code: " + TYRAELS_CATALOG[0].displayName,
+                "[GM] Code schicken: " + TYRAELS_CATALOG[0].displayName,
                 SENDER_GM_SEND_CODE, 1,
-                "Enter character name to send a code for \"" +
-                TYRAELS_CATALOG[0].displayName + "\" to:",
+                "Code für \"" +
+                TYRAELS_CATALOG[0].displayName + "\" schicken an Charakter:",
                 0, true);
             SendGossipMenuFor(player, NPC_TEXT_WWI, creature->GetGUID());
             return true;
@@ -2663,20 +2663,20 @@ public:
         else if (mode == MODE_BLIZZLIKE || mode == MODE_ITEM_CODE)
             AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                 GOSSIP_SENDER_MAIN, 1,
-                "Enter your redemption code for \"" +
-                TYRAELS_CATALOG[0].displayName + "\":",
+                "Euren Einlösecode für \"" +
+                TYRAELS_CATALOG[0].displayName + "\" eingeben:",
                 0, true);
         else
             AddGossipItemFor(player, GOSSIP_ICON_VENDOR, label,
                 GOSSIP_SENDER_MAIN, 1,
-                "Receive \"" + TYRAELS_CATALOG[0].displayName + "\"?",
+                "\"" + TYRAELS_CATALOG[0].displayName + "\" erhalten?",
                 0, false);
 
         // The WoW 3.3.5a client skips rendering the gossip window when there
         // is exactly one item with hasTextBox = true and jumps straight to the
         // text dialog.  A second item forces the menu to render so the NPC
         // greeting text is visible before the player commits to redeeming.
-        AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Never mind.",
+        AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Vergesst es.",
             GOSSIP_SENDER_MAIN, 0);
 
         SendGossipMenuFor(player, NPC_TEXT_WWI, creature->GetGUID());
@@ -2733,14 +2733,14 @@ public:
             {
                 ClearGossipMenuFor(player);
                 AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1,
-                    "[GM] Force delivery to \"" + codeStr + "\" anyway",
+                    "[GM] Aushändigung an \"" + codeStr + "\" trotzdem erzwingen",
                     SENDER_GM_FORCE, 1,
-                    "\"" + codeStr + "\" already has \"" +
+                    "\"" + codeStr + "\" besitzt bereits \"" +
                     TYRAELS_CATALOG[0].displayName +
-                    "\". Enter their name again to confirm forced re-delivery:",
+                    "\". Zur Bestätigung den Namen erneut eingeben:",
                     0, true);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT,
-                    "< Cancel", SENDER_MAIN, 0);
+                    "< Abbrechen", SENDER_MAIN, 0);
                 SendGossipMenuFor(player, NPC_TEXT_WWI, creature->GetGUID());
             }
             else
