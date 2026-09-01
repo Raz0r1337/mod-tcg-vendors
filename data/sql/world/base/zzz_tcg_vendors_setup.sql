@@ -44,7 +44,7 @@ DELETE FROM `npc_text` WHERE `ID` = 90001;
 INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`) VALUES
 (
     90001,
-    'Landro Longshot, the Black Flame, at your service, $N.$B$BYou''ve come to redeem a World of Warcraft Trading Card Game code, have you? Pick the set your card came from and I''ll sort you out.',
+    'Landro Fernblick, die Schwarze Flamme, zu Euren Diensten, $N.$B$BIhr wollt also einen Code für das World of Warcraft Sammelkartenspiel einlösen? Nennt mir das Set, aus dem Eure Karte stammt, und ich regle den Rest.',
     ''
 );
 
@@ -54,7 +54,7 @@ INSERT INTO `npc_text` (`ID`, `text0_1`, `text0_0`) VALUES
 (
     90002,
     '',
-    'Welcome, $N. I handle official Blizzard promotional item codes.$B$BEach code may only be redeemed once. Tell me which item you''re here for.'
+    'Willkommen, $N. Ich verwalte die offiziellen Promo-Codes von Blizzard.$B$BJeder Code kann nur einmal eingelöst werden. Sagt mir, für welchen Gegenstand Ihr gekommen seid.'
 );
 
 --  Garel Redrock / Tharl Stonebleeder  (promotional item vendors)
@@ -62,7 +62,7 @@ DELETE FROM `npc_text` WHERE `ID` = 90003;
 INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`) VALUES
 (
     90003,
-    'Welcome, $N. I can provide you with a variety of exclusive promotional companion pets and special items.$B$BEach item may only be redeemed once per character. Browse by category to find what you''re looking for.',
+    'Willkommen, $N. Ich kann Euch eine ganze Reihe exklusiver Promo-Begleiter und besonderer Gegenstände beschaffen.$B$BJeder Gegenstand kann pro Charakter nur einmal eingelöst werden. Stöbert nach Kategorie, um zu finden, wonach Ihr sucht.',
     ''
 );
 
@@ -71,7 +71,7 @@ DELETE FROM `npc_text` WHERE `ID` = 90004;
 INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`) VALUES
 (
     90004,
-    'Greetings, $N. I trust that you bring me good news concerning the Worldwide Invitational event? If you are, then surely that means you were given a secret code to tell me. In return for your code I will give you a gift, Tyrael''s Hilt.$B$BJust whisper it in my ear when you are ready.',
+    'Seid gegrüßt, $N. Ich nehme an, Ihr bringt mir gute Nachrichten vom Worldwide Invitational? Wenn dem so ist, dann hat man Euch gewiss einen geheimen Code anvertraut, den Ihr mir nennen sollt. Im Tausch für Euren Code gebe ich Euch ein Geschenk: Tyraels Schwertgriff.$B$BFlüstert ihn mir einfach ins Ohr, sobald Ihr bereit seid.',
     ''
 );
 
